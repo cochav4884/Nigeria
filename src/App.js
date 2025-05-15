@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Church from './components/Church';
-import Contact from './components/Contact';
-import Credits from './components/Credits';
-import LocalTalent from './components/LocalTalent';
-import NiteLife from './components/NiteLife';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Church from './Pages/Church';
+import Contact from './Pages/Contact';
+import Credits from './Pages/Credits';
+import LocalTalent from './Pages/LocalTalent';
+import NiteLife from './Pages/NiteLife';
 
 function App() {
   return (
