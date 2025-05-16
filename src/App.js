@@ -7,6 +7,9 @@ import Contact from './Pages/Contact';
 import Credits from './Pages/Credits';
 import LocalTalent from './Pages/LocalTalent';
 import NiteLife from './Pages/NiteLife';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
+import Residents from './Pages/Residents';
+import TermsOfUse from './Pages/TermsOfUse';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Link to="/localtalent">Talent</Link>
         <Link to="/nitelife">NiteLife</Link>
         <Link to="/credits">Credits</Link>
+        <Link to="/privacypolicy">PrivacyPolicy</Link>
+        <Link to="/residents">Residents</Link>
+        <Link to="/termsofuse">TermsOfUse</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,6 +34,9 @@ function App() {
         <Route path="/localtalent" element={<LocalTalent />} />
         <Route path="/nitelife" element={<NiteLife />} />
         <Route path="/credits" element={<Credits />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/residents" element={<Residents />} />
+        <Route path="/termsofuse" element={<TermsOfUse />} />
       </Routes>
     </Router>
   );
