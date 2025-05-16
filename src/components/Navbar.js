@@ -26,7 +26,7 @@ const NavBar = () => {
         <NavLink to="/" end onClick={() => setMenuOpen(false)}>Home</NavLink>
         <NavLink to="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
         <NavLink to="/church" onClick={() => setMenuOpen(false)}>Church</NavLink>
-        <NavLink to="/localtalent" onClick={() => setMenuOpen(false)}>Talent</NavLink>
+        <NavLink to="/localtalent" onClick={() => setMenuOpen(false)}>Local Talent</NavLink>
         <NavLink to="/nitelife" onClick={() => setMenuOpen(false)}>NiteLife</NavLink>
         <NavLink to="/residents" onClick={() => setMenuOpen(false)}>Residents</NavLink>
       </div>
