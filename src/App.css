@@ -1,19 +1,63 @@
-/* Ensure the app takes up full height */
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(128, 128, 128); /* dark purple */
-  color: rgb(255, 255, 255);         /* white text */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #222222; /* dark background for content */
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(34, 139, 34, 0.4); /* subtle green glow */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Make app-content stretch to full height and push footer to bottom */
-.app-content {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.page-header {
+  color: #228b22; /* Forest Green */
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-main {
-  flex: 1;
+.section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.page-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(34, 139, 34, 0.4);
+}
+
+.subheader {
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem 0;
+  color: #228b22;
+  text-align: center;
+  font-weight: 600;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #a2d5a2; /* lighter green accent */
+}
+
+.interview-section blockquote {
+  font-style: italic;
+  border-left: 4px solid #ffd700; /* Yellow accent */
+  padding-left: 1rem;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  background: #444400; /* Dark olive/yellow tint */
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(255, 215, 0, 0.5);
+}
+
+.interview-section strong {
+  color: #ffd700; /* Yellow */
 }

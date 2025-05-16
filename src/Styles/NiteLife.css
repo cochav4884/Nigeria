@@ -1,7 +1,7 @@
 /* Container for the whole page content */
 .main_container {
   min-height: 100vh;
-  background-color: rgb(37, 15, 37); /* dark purple */
+  background-color: rgb(34, 139, 34); /* forest green */
   color: rgb(255, 255, 255); /* white */
   font-family: 'Lato', 'Roboto Slab', sans-serif;
   padding: 2rem;
@@ -13,23 +13,24 @@
 /* Header styling */
 .header {
   font-weight: 700;
-  font-size: 2.5rem; /* a bit bigger */
+  font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: rgb(255, 255, 255) !important; /* white */
+  color: rgb(255, 255, 255); /* white */
   text-align: center;
   max-width: 900px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
 /* Main content container */
 .container {
   width: 100%;
   max-width: 1100px;
-  background-color: rgb(128, 128, 128); /* gray */
+  background-color: rgb(255, 215, 0); /* gold/yellow */
   padding: 1rem 2rem;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.7);
   overflow-y: auto;
+  color: rgb(0, 0, 0); /* black text for readability on yellow background */
 }
 
 /* Sections with images */
@@ -43,24 +44,25 @@
 
 /* Image styling */
 .nitelife-pics {
-  flex: 1 1 30%;  /* flexible basis about 30% of container */
+  flex: 1 1 30%;
   max-width: 350px;
   height: 550px;
   border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 0 8px rgba(0,0,0,0.7);
-  transition: transform 0.3s ease;
-  min-width: 250px; /* ensures images don’t get too narrow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 250px;
+  border: 3px solid rgb(0, 0, 0); /* black border */
 }
 
 .nitelife-pics:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgb(128, 128, 128); /* gray */
+  box-shadow: 0 0 15px rgb(255, 215, 0); /* glowing gold shadow on hover */
 }
 
 /* Horizontal rule styling */
 hr {
   border: none;
-  border-top: 1px solid rgb(128, 128, 128); /* gray */
+  border-top: 1px solid rgb(0, 0, 0); /* black */
   margin: 2rem 0;
 }

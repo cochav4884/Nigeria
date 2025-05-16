@@ -1,27 +1,41 @@
 .footer-container {
-  background-color: rgb(37, 15, 37); /* dark purple */
-  color: rgb(255, 255, 255);         /* white text */
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
   padding: 1.5rem 1rem 2rem;
   text-align: center;
   font-size: 0.9rem;
-  border-top: 1px solid rgb(128, 128, 128); /* accent gray */
+  border-top: 1px solid #228b22; /* Forest Green border */
   position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
 }
 
 .footer-nav a {
-  color: rgb(128, 128, 128); /* accent gray */
+  color: #228b22; /* Forest Green */
   margin: 0 0.5rem;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-nav a:hover {
-  color: rgb(255, 255, 255); /* white on hover */
+  color: #ffd700; /* Yellow on hover */
   text-decoration: underline;
 }
 
 .footer-content p {
   margin: 0.3rem 0;
+}
+
+.footer-content p a {
+  color: #228b22; /* Forest Green */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-content p a:hover {
+  color: #ffd700; /* Yellow on hover */
+  text-decoration: underline;
 }
 
 .footer-image-container {
@@ -33,6 +47,7 @@
 .footer-image-container img {
   max-width: 100px;
   height: auto;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(34, 139, 34, 0.5); /* Forest Green shadow */
 }

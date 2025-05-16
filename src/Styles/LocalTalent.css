@@ -1,12 +1,25 @@
-/* Main Container */
-#main-color {
-  background-color: rgb(37, 15, 37);
+/* Main container with white background and black text */
+.main_container, #main-color {
+  background-color: #ffffff; /* white */
+  padding: 20px;
+  color: #000000; /* true black */
+}
+
+/* Header styling with gold/yellow background and black text */
+.header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000; /* black */
+  text-align: center;
+  background-color: #ffd700; /* gold/yellow */
+  padding: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(128, 128, 0, 0.5); /* soft yellow/greenish shadow */
 }
 
 /* Flip box container */
 .flip-box {
   background-color: transparent;
-  perspective: 1000px; /* Needed for 3D effect */
+  perspective: 1000px;
   cursor: pointer;
   margin: auto;
 }
@@ -15,10 +28,12 @@
 .flip-box-inner {
   position: relative;
   width: 100%;
-  height: 420px; /* Enough height to hold two images + text */
+  height: 420px;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* black shadow */
 }
 
 /* Flip on hover */
@@ -33,59 +48,76 @@
   height: 100%;
   backface-visibility: hidden;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-/* Front side */
+/* Front side with white background and green border */
 .flip-box-front {
-  background-color: rgb(37, 15, 37); /* dark purple */
-  color: rgb(255, 255, 255); /* white */
-  padding: 10px;
+  background-color: #ffffff; /* white */
+  color: #006400; /* dark green text */
+  border: 3px solid #228b22; /* forest green */
   overflow: hidden;
 }
 
-/* Back side */
+/* Back side - yellow background with black/dark green text */
 .flip-box-back {
-  background-color: rgb(37, 15, 37); /* dark purple */
-  color: rgb(255, 255, 255); /* white */
+  background-color: #ffd700; /* gold */
+  color: #000000; /* black text */
   transform: rotateY(180deg);
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-/* Button styling */
-.button1 {
-  background-color: rgb(128, 128, 128); /* accent gray */
-  border: none;
-  color: rgb(255, 255, 255); /* white */
-  padding: 8px 12px;
-  margin: 5px 0;
-  border-radius: 4px;
+  font-weight: 700;
   font-size: 1rem;
+}
+
+/* Buttons styled as forest green with white text */
+.button1, .btn {
+  background-color: #228b22; /* forest green */
+  color: #ffffff; /* white text */
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
   cursor: pointer;
+  margin: 0.5rem 0;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* black shadow */
 }
 
-.button1:hover {
-  background-color: rgb(255, 255, 255); /* white */
-  color: rgb(37, 15, 37); /* dark purple */
+.button1:hover, .btn:hover {
+  background-color: #006400; /* darker green */
+  color: #ffffff; /* white text */
 }
 
-/* Text spacing */
-.space {
-  line-height: 1.4;
-  background-color: rgba(128, 128, 128, 0.6);
+/* Images inside flip box front */
+.flip-box-front img {
+  border-radius: 8px;
+  max-height: 200px;
+  object-fit: cover;
+  width: 165px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* subtle black shadow */
 }
 
-/* Text below card styling */
+/* Text below the flip card */
 .text-below-card {
-  color: rgb(255, 255, 255); /* white */
+  color: #006400; /* dark green */
   margin-top: 10px;
   font-weight: 600;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Hide text below card when flip box is hovered (card flipped) */
+/* Hide text below card when flip box is hovered */
 .flip-box:hover + .text-below-card {
   display: none;
 }

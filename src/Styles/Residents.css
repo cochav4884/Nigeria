@@ -2,33 +2,33 @@
   max-width: 900px;
   margin: 2rem auto;
   padding: 1rem 2rem;
-  background-color: rgb(37, 15, 37); /* dark purple */
-  color: rgb(255, 255, 255); /* white */
+  background-color: #ffc107; /* yellow background */
+  color: #000000; /* black text */
   border-radius: 8px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .residents-container h1 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: rgb(128, 128, 128); /* gray accent */
+  color: #28a745; /* green header */
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 /* Accordion styles */
 .accordion-item {
-  border: 1px solid rgb(128, 128, 128); /* gray border */
+  border: 2px solid #000000; /* bold black border */
   border-radius: 6px;
   margin-bottom: 1rem;
   overflow: hidden;
-  background-color: rgb(37, 15, 37); /* dark purple */
+  background-color: #ffffff; /* white content area */
 }
 
 .accordion-header {
-  background-color: rgb(55, 22, 55); /* slightly lighter dark purple */
-  color: rgb(128, 128, 128); /* gray */
+  background-color: #ffc107; /* yellow */
+  color: #000000; /* black text */
   cursor: pointer;
   padding: 1rem 1.5rem;
   font-weight: 600;
@@ -41,14 +41,14 @@
 }
 
 .accordion-header:hover {
-  background-color: rgb(65, 30, 65); /* a bit lighter on hover */
+  background-color: #ffda33; /* lighter yellow */
 }
 
 .accordion-header::after {
   content: '▼';
   font-size: 0.8rem;
   transition: transform 0.3s ease;
-  color: rgb(128, 128, 128);
+  color: #28a745; /* green indicator */
 }
 
 .accordion-header.active::after {
@@ -58,10 +58,10 @@
 /* Accordion body */
 .accordion-body {
   padding: 1rem 1.5rem;
-  background-color: rgb(37, 15, 37);
-  color: rgb(200, 200, 200);
+  background-color: #ffffff; /* white background */
+  color: #000000; /* black text */
   line-height: 1.5;
-  border-top: 1px solid rgb(128, 128, 128);
+  border-top: 1px solid #ffc107;
   display: none;
 }
 
@@ -74,24 +74,24 @@
   max-width: 200px;
   margin-top: 0.5rem;
   border-radius: 4px;
-  box-shadow: 0 0 8px rgba(128, 128, 128, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Links */
 .accordion-body a {
-  color: rgb(128, 128, 128);
+  color: #28a745; /* green links */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .accordion-body a:hover {
-  color: rgb(255, 255, 255);
+  color: #000000;
   text-decoration: underline;
 }
 
 /* Questions */
 .accordion-body p strong {
-  color: rgb(128, 128, 128);
+  color: #28a745; /* green highlights */
 }
 
 /* Responsive */

@@ -1,6 +1,6 @@
 /* NavBar Container */
 nav {
-  background-color: rgb(37, 15, 37); /* dark purple */
+  background-color: rgb(34, 139, 34); /* forest green */
   color: rgb(255, 255, 255); /* white */
   display: flex;
   align-items: center;
@@ -9,6 +9,8 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  border-radius: 10px;
 }
 
 /* Hamburger Menu Button */
@@ -22,7 +24,7 @@ nav {
 .menu-toggle span {
   width: 25px;
   height: 3px;
-  background-color: rgb(255, 255, 255); /* white */
+  background-color: rgb(255, 215, 0); /* gold/yellow */
   border-radius: 2px;
 }
 
@@ -37,13 +39,16 @@ nav {
   color: rgb(255, 255, 255); /* white */
   text-decoration: none;
   transition: color 0.3s ease;
-  font-weight: 500;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: rgb(128, 128, 128); /* gray */
-  text-decoration: underline;
+  background-color: rgb(255, 215, 0); /* gold/yellow background on hover */
+  color: rgb(0, 0, 0); /* black text */
+  text-decoration: none;
 }
 
 /* Mobile Menu Styling */
@@ -58,7 +63,7 @@ nav {
     left: 0;
     width: 100%;
     flex-direction: column;
-    background-color: rgb(37, 15, 37); /* dark purple */
+    background-color: rgb(34, 139, 34); /* forest green */
     padding: 1rem 0;
     display: none;
   }

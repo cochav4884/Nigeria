@@ -5,6 +5,11 @@ import "../Styles/Footer.css";
 import lookingOut from "../images/looking_out_bw2.jpg";
 
 function Footer() {
+  // Scroll to top handler
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="footer-container">
       <div className="footer-content">
@@ -18,6 +23,11 @@ function Footer() {
         <p>
           Pastor: <NavLink to="/pastor">Amos Onogwu</NavLink>
         </p>
+
+        <button className="back-to-top" onClick={scrollToTop} aria-label="Back to top">
+          ↑ Back to Top
+        </button>
+
         <div className="footer-nav">
           <NavLink to="/privacypolicy">Privacy Policy</NavLink> |{" "}
           <NavLink to="/termsofuse">Terms of Use</NavLink> |{" "}

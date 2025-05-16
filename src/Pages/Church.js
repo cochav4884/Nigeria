@@ -1,28 +1,21 @@
 import React from 'react';
-import '../Styles/Church.css';
 
-// Image imports
 import HBG_bw3 from '../images/HBG_bw3.jpg';
 import HBG_bw2 from '../images/HBG_bw2.jpg';
 import HBG_bw4 from '../images/HBG_bw4.jpg';
 
 const Church = () => {
   return (
-    <main className="church-main">
+    <div className="container">
       <header>
-        <h1 className="church-header">
+        <h1 className="page-header">
           Akute, Ogun State, Nigeria <br />
           *Church Page*
         </h1>
       </header>
 
-      <section className="church-section">
-        <img
-          src={HBG_bw3}
-          alt="HBG Church building"
-          className="church-image"
-          id="church-image-1"
-        />
+      <section className="section">
+        <img src={HBG_bw3} alt="HBG Church building" className="page-image" />
         <p>
           This beautiful community church is in the heart of Akute, Ogun State,
           Nigeria. It's a place to worship, gather with friends, repent & be
@@ -31,13 +24,8 @@ const Church = () => {
         </p>
       </section>
 
-      <section className="church-section">
-        <img
-          src={HBG_bw2}
-          alt="HBG Church building"
-          className="church-image"
-          id="church-image-2"
-        />
+      <section className="section">
+        <img src={HBG_bw2} alt="HBG Church building" className="page-image" />
         <p>
           Home away from home, people from all over town gather to support each
           other in spiritual growth. The inspiring Pastor Amos Onogwu leads the
@@ -45,13 +33,8 @@ const Church = () => {
         </p>
       </section>
 
-      <section className="church-section">
-        <img
-          src={HBG_bw2}
-          alt="HBG Church building"
-          className="church-image"
-          id="church-image-3"
-        />
+      <section className="section">
+        <img src={HBG_bw2} alt="HBG Church building" className="page-image" />
         <p>
           Pastor Amos Onogwu offers a safe place to open up to God, feel His
           healing through the Holy Spirit, and connect with fellow disciples.
@@ -60,13 +43,8 @@ const Church = () => {
         </p>
       </section>
 
-      <section className="church-section">
-        <img
-          src={HBG_bw2}
-          alt="HBG Church building"
-          className="church-image"
-          id="church-image-4"
-        />
+      <section className="section">
+        <img src={HBG_bw2} alt="HBG Church building" className="page-image" />
         <p>
           Service is held on Sundays at 9:00 AM. Supporting staff includes:
           (staff names/titles here). Thank you for your interest in our church,
@@ -75,8 +53,9 @@ const Church = () => {
         </p>
       </section>
 
-      <h2 className="church-subheader">*Heartbeat of God*</h2>
-      <div className="church-contact">
+      <h2 className="subheader">*Heartbeat of God*</h2>
+
+      <div className="contact-info">
         <p>Address: Akute, Ogun State, Nigeria</p>
         <p>
           Contact: <br />
@@ -85,13 +64,8 @@ const Church = () => {
         </p>
       </div>
 
-      <section className="church-section">
-        <img
-          src={HBG_bw2}
-          alt="Community church building in Akute"
-          className="church-image"
-          id="church-image-5"
-        />
+      <section className="section">
+        <img src={HBG_bw2} alt="Community church building in Akute" className="page-image" />
         <p>
           This beautiful community church is in the heart of the town of Akute,
           Ogun State, Nigeria. Need a place to worship, a place to gather amongst
@@ -100,14 +74,10 @@ const Church = () => {
         </p>
       </section>
 
-      <h2 className="church-subheader">*Pastor Amos Onogwu*</h2>
-      <section className="church-section">
-        <img
-          src={HBG_bw4}
-          alt="Pastor Amos Onogwu portrait"
-          className="church-image"
-          id="church-image-6"
-        />
+      <h2 className="subheader">*Pastor Amos Onogwu*</h2>
+
+      <section className="section">
+        <img src={HBG_bw4} alt="Pastor Amos Onogwu portrait" className="page-image" />
         <p>
           Pastor Amos Onogwu has been with HBG since 2010. Born in Akute, he was
           raised by a strong Christian family. After completing his education,
@@ -115,8 +85,9 @@ const Church = () => {
         </p>
       </section>
 
-      <h2 className="church-subheader">*Interview with Pastor Amos Onogwu*</h2>
-      <section className="church-interview">
+      <h2 className="subheader">*Interview with Pastor Amos Onogwu*</h2>
+
+      <section className="interview-section">
         <blockquote>
           <p>
             <strong>Richie:</strong> What is the first thought that comes to mind
@@ -138,7 +109,7 @@ const Church = () => {
           </p>
         </blockquote>
       </section>
-    </main>
+    </div>
   );
 };
 

@@ -10,9 +10,11 @@ const LocalTalent = () => {
   return (
     <div className="main_container" id="main-color">
       <h1 className="header text-center my-4">
-        Akute, Ogun State, Nigeria <br />
-        <span className="text-muted">*Local Talent*</span>
+        Akute, Ogun State, Nigeria
       </h1>
+      <h2 className="text-muted text-center mb-4">
+        *Local Talent*
+      </h2>
 
       <div className="container-fluid">
         <hr />
@@ -41,9 +43,9 @@ const LocalTalent = () => {
                         />
                       </div>
                     </div>
-                    <div className="flip-box-back bg-dark text-light p-3">
+                    <div className="flip-box-back p-3">
                       <p>
-                        <b className="text-info">TRIPP - FLIP SIDE</b>
+                        <b>TRIPP - FLIP SIDE</b>
                         <br />
                         To listen to his song, click below!
                         <br />
