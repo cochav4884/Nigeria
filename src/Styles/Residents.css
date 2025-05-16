@@ -1,0 +1,108 @@
+/* Residents.css */
+
+.residents-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #1e1e1e; /* Dark background consistent with footer */
+  color: #eee; /* Light text */
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.residents-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #f0a500; /* A warm accent color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Accordion styles */
+.accordion-item {
+  border: 1px solid #444;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  background-color: #2a2a2a;
+}
+
+.accordion-header {
+  background-color: #333;
+  color: #f0a500;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header:hover {
+  background-color: #444;
+}
+
+.accordion-header::after {
+  content: '▼';
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+  color: #f0a500;
+}
+
+.accordion-header.active::after {
+  transform: rotate(-180deg);
+}
+
+/* Accordion body */
+.accordion-body {
+  padding: 1rem 1.5rem;
+  background-color: #1e1e1e;
+  color: #ccc;
+  line-height: 1.5;
+  border-top: 1px solid #444;
+  display: none;
+}
+
+.accordion-body.active {
+  display: block;
+}
+
+/* Images */
+.accordion-body img {
+  max-width: 200px;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(240, 165, 0, 0.6);
+}
+
+/* Links */
+.accordion-body a {
+  color: #f0a500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.accordion-body a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Questions */
+.accordion-body p strong {
+  color: #f0a500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .residents-container {
+    padding: 1rem;
+  }
+
+  .accordion-body img {
+    max-width: 100%;
+  }
+}
