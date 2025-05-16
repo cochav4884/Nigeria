@@ -1,0 +1,60 @@
+/* Home.css */
+
+.main-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.carousel {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;          /* allow height to scale with width */
+  max-height: 600px;     /* optional max height to keep images manageable */
+  object-fit: contain;   /* ensure entire image fits without cropping */
+  border-radius: 0;      /* keep corners flush inside carousel */
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.carousel-item {
+  transition: opacity 0.6s ease-in-out;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #333;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #007bff;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
