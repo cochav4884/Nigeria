@@ -3,6 +3,8 @@ html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: rgb(128, 128, 128); /* dark purple */
+  color: rgb(255, 255, 255);         /* white text */
 }
 
 /* Make app-content stretch to full height and push footer to bottom */
@@ -14,47 +16,4 @@ html, body, #root {
 
 main {
   flex: 1;
-}
-
-/* Footer Styling */
-.footer {
-  background-color: #222;
-  color: #eee;
-  padding: 1rem 0 0.5rem; /* extra bottom space for image */
-  text-align: center;
-  font-size: 0.9rem;
-  border-top: 1px solid #444;
-  position: relative;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-links {
-  margin-top: 0.5rem;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.footer-links a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-/* Small logo/image at the bottom */
-.footer-logo {
-  width: 40px;
-  height: auto;
-  margin-top: 0.5rem;
-  opacity: 0.6;
 }

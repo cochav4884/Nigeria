@@ -1,3 +1,8 @@
+/* Main Container */
+#main-color {
+  background-color: rgb(37, 15, 37);
+}
+
 /* Flip box container */
 .flip-box {
   background-color: transparent;
@@ -32,16 +37,16 @@
 
 /* Front side */
 .flip-box-front {
-  background-color: #222;
-  color: white;
+  background-color: rgb(37, 15, 37); /* dark purple */
+  color: rgb(255, 255, 255); /* white */
   padding: 10px;
   overflow: hidden;
 }
 
 /* Back side */
 .flip-box-back {
-  background-color: #222;
-  color: white;
+  background-color: rgb(37, 15, 37); /* dark purple */
+  color: rgb(255, 255, 255); /* white */
   transform: rotateY(180deg);
   padding: 20px;
   display: flex;
@@ -51,9 +56,9 @@
 
 /* Button styling */
 .button1 {
-  background-color: #007bff;
+  background-color: rgb(128, 128, 128); /* accent gray */
   border: none;
-  color: white;
+  color: rgb(255, 255, 255); /* white */
   padding: 8px 12px;
   margin: 5px 0;
   border-radius: 4px;
@@ -62,17 +67,19 @@
 }
 
 .button1:hover {
-  background-color: #0056b3;
+  background-color: rgb(255, 255, 255); /* white */
+  color: rgb(37, 15, 37); /* dark purple */
 }
 
 /* Text spacing */
 .space {
   line-height: 1.4;
+  background-color: rgba(128, 128, 128, 0.6);
 }
 
 /* Text below card styling */
 .text-below-card {
-  color: white;
+  color: rgb(255, 255, 255); /* white */
   margin-top: 10px;
   font-weight: 600;
   text-align: center;

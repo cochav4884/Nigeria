@@ -8,7 +8,7 @@ import flipSideAudio from "../assets/TRIPP- FLIP SIDE (PROD BY SOL DRE).mp3";
 
 const LocalTalent = () => {
   return (
-    <div className="main_container">
+    <div className="main_container" id="main-color">
       <h1 className="header text-center my-4">
         Akute, Ogun State, Nigeria <br />
         <span className="text-muted">*Local Talent*</span>
@@ -71,7 +71,7 @@ const LocalTalent = () => {
 
                 {/* Text below the flip card */}
                 <div className="text-below-card mt-3">
-                  <h4 className="space text-dark">
+                  <h4 className="space">
                     <b>Richie Osborne</b> <br />
                     Artist Name: TRIPP
                     <br />

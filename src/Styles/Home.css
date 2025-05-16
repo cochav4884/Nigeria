@@ -1,38 +1,41 @@
 .main-container {
   padding: 20px;
-  background-color: #f8f9fa;
+  background-color: rgb(128, 128, 128); /* dark purple background */
+  color: rgb(255, 255, 255); /* white text */
 }
 
 h2 {
   margin-bottom: 20px;
   margin-top: 20px;
-  color: #333;
+  color: rgb(255, 255, 255); /* white */
+  text-align: center;
 }
 
 p {
   font-size: 1.1rem;
   line-height: 1.6;
+  color: rgb(255, 255, 255); /* white */
 }
 
 /* Carousel container */
 .carousel {
   border-radius: 10px;
-  overflow: visible !important; /* allow content to show fully */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: visible !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: rgb(55, 25, 55); /* slightly lighter purple for contrast */
 }
 
-/* IMPORTANT: Do NOT override display or opacity for carousel-item */
+/* Carousel item */
 .carousel-item {
   height: auto !important;
-  min-height: 300px; /* optional min height */
-  /* Remove any display or opacity overrides */
+  min-height: 300px;
 }
 
 /* Image styles */
 .carousel img {
   max-width: 100%;
   height: auto !important;
-  max-height: 80vh; /* limit image height */
+  max-height: 80vh;
   object-fit: contain;
   border-radius: 10px;
   display: block;
@@ -44,21 +47,21 @@ p {
 /* Controls */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(128, 128, 128, 0.6); /* accent gray with transparency */
   border-radius: 50%;
   padding: 10px;
 }
 
 /* Indicators */
 .carousel-indicators [data-bs-target] {
-  background-color: #333;
+  background-color: rgb(128, 128, 128); /* accent gray */
   width: 10px;
   height: 10px;
   border-radius: 50%;
 }
 
 .carousel-indicators .active {
-  background-color: #007bff;
+  background-color: rgb(255, 255, 255); /* white */
 }
 
 /* Larger screen tweaks */

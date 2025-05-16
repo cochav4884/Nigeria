@@ -27,7 +27,7 @@ function About() {
   }, []);
 
   return (
-    <div className="container my-4">
+    <div className="container my-4" id="container-color">
       <h1 className="header mb-4">
         Akute, Ogun State, Nigeria <br />
         <em>*About Page*</em>
