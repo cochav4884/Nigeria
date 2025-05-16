@@ -1,5 +1,3 @@
-/* Home.css */
-
 .main-container {
   padding: 20px;
   background-color: #f8f9fa;
@@ -23,23 +21,20 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Carousel items should grow to fit content */
+/* IMPORTANT: Do NOT override display or opacity for carousel-item */
 .carousel-item {
   height: auto !important;
-  min-height: 300px; /* optional min height for aesthetics */
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  transition: opacity 0.6s ease-in-out;
+  min-height: 300px; /* optional min height */
+  /* Remove any display or opacity overrides */
 }
 
 /* Image styles */
 .carousel img {
   max-width: 100%;
   height: auto !important;
-  max-height: 80vh; /* limit image height to viewport height */
+  max-height: 80vh; /* limit image height */
   object-fit: contain;
-  border-radius: 0;
+  border-radius: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -66,9 +61,9 @@ p {
   background-color: #007bff;
 }
 
-/* Larger screen tweaks if needed */
+/* Larger screen tweaks */
 @media (min-width: 992px) {
   .carousel img {
-    max-height: 85vh; /* larger max height on big screens */
+    max-height: 85vh;
   }
 }

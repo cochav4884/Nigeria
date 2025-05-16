@@ -1,28 +1,20 @@
-import React, { useEffect } from "react";
-import { Carousel as BootstrapCarousel } from "bootstrap";
+import React from "react";
 import images from "../images"; // your images array
 import "../Styles/Home.css";
 
 const Home = () => {
-  useEffect(() => {
-    const carouselElement = document.getElementById("imageCarousel");
-    const carouselInstance = new BootstrapCarousel(carouselElement, {
-      interval: 3000, // auto-slide every 3 seconds
-      ride: "carousel",
-      pause: "hover",
-      wrap: true,
-      keyboard: true,
-    });
-
-    return () => {
-      carouselInstance.dispose(); // cleanup on unmount
-    };
-  }, []);
-
   return (
     <section className="main-container">
       <h2>Welcome to my Homepage</h2>
-      <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
+      <div
+        id="imageCarousel"
+        className="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+        data-bs-pause="hover"
+        data-bs-wrap="true"
+        data-bs-keyboard="true"
+      >
         {/* indicators */}
         <div className="carousel-indicators">
           {images.map((_, idx) => (
