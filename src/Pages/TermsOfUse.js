@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/TermPrivacy.css";
 
 const TermsOfUse = () => {
   const scrollToTop = () => {
