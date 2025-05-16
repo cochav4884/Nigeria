@@ -5,6 +5,7 @@ import {
   Routes,
   NavLink,
 } from "react-router-dom";
+
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Church from "./Pages/Church";
@@ -15,6 +16,9 @@ import NiteLife from "./Pages/NiteLife";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Residents from "./Pages/Residents";
 import TermsOfUse from "./Pages/TermsOfUse";
+
+import Footer from "./components/Footer";
+
 import "./App.css";
 
 function App() {
@@ -23,7 +27,16 @@ function App() {
   return (
     <Router>
       <nav>
-        <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+        <div
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+          role="button"
+          tabIndex={0}
+          onKeyPress={(e) => {
+            if (e.key === "Enter" || e.key === " ") setMenuOpen(!menuOpen);
+          }}
+        >
           <span></span>
           <span></span>
           <span></span>
@@ -50,7 +63,14 @@ function App() {
           </NavLink>
 
           <div className={`dropdown ${menuOpen ? "active" : ""}`}>
-            <button className="dropbtn">More</button>
+            <button
+              className="dropbtn"
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-haspopup="true"
+              aria-expanded={menuOpen}
+            >
+              More
+            </button>
             <div className="dropdown-content">
               <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
                 Contact
@@ -83,19 +103,8 @@ function App() {
           <Route path="/termsofuse" element={<TermsOfUse />} />
         </Routes>
       </main>
-      <footer className="footer">
-        <div className="footer-content">
-          <p>
-            &copy; {new Date().getFullYear()} Your App Name. All rights
-            reserved.
-          </p>
-          <div className="footer-links">
-            <NavLink to="/privacypolicy">Privacy Policy</NavLink>
-            <NavLink to="/termsofuse">Terms of Use</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-          </div>
-        </div>
-      </footer>
+
+      <Footer />
     </Router>
   );
 }

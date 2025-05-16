@@ -1,96 +1,104 @@
-body {
+/* Container to push footer to bottom */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: rgb(37, 15, 37);
+  color: white;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  flex-grow: 1;
 }
 
 .header {
-  font-size: 56px;
-  font-family: serif;
+  font-size: clamp(2rem, 5vw, 48px);
+  font-weight: bold;
   text-align: center;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+section {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1rem;
   color: rgb(255, 255, 255);
 }
 
-/* Fixed sidenav, full height */
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+/* Optional: Link styles inside text */
+section a {
+  color: rgb(128, 128, 128);
+  text-decoration: underline;
 }
 
-/* Style the sidenav links and the dropdown button */
-.sidenav a,
-.dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
+section a:hover {
+  color: white;
+}
+
+/* TermPrivacy.css */
+
+.terms-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.terms-title {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.terms-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.terms-section {
+  margin-bottom: 30px;
+}
+
+.terms-heading {
+  font-size: 1.5rem;
+  color: #005ea2;
+  margin-bottom: 8px;
+}
+
+.terms-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.back-to-top-container {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.back-to-top-link {
   background: none;
-  width: 100%;
-  text-align: left;
+  border: none;
+  color: #005ea2;
   cursor: pointer;
-  outline: none;
+  font-weight: 600;
+  padding: 0;
+  font-size: 0.9rem;
 }
 
-/* On mouse-over */
-.sidenav a:hover,
-.dropdown-btn:hover {
-  color: #f1f1f1;
+.back-to-top-link:hover {
+  text-decoration: underline;
 }
 
-/* Main content */
-.main_container {
-  width: calc(100% - 200px);
-  margin-top: 70px;
-  margin-left: 200px;
-  padding: 0px 10px;
-  transition: all 0.3s ease;
-  font-size: 20px;
-}
 
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: white;
-  color: black;
-}
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-  display: none;
-  background-color: rgb(37, 15, 37);
-  padding-left: 8px;
-}
-
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-
-.footer::first-letter {
-  font-size: 200%;
-  color: rgb(128, 128, 128);
-  font-style: italic;
-  padding: 5px;
-  border: 8px double rgb(128, 128, 128);
-}
-
-.owners {
-  color: rgb(255, 255, 255);
-}
-
-.name {
-  color: rgb(128, 128, 128);
-  font-style: italic;
-}
-
-.fimg {
-  border: 8px double rgb(128, 128, 128);
-}
-
+/* Footer already in App.js, no need to repeat */
