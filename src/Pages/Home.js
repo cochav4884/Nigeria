@@ -1,17 +1,29 @@
-import React from "react";
-import images from "../images"; // Adjust path if needed
+import React, { useEffect } from "react";
+import { Carousel as BootstrapCarousel } from "bootstrap";
+import images from "../images"; // your images array
 import "../Styles/Home.css";
 
 const Home = () => {
+  useEffect(() => {
+    const carouselElement = document.getElementById("imageCarousel");
+    const carouselInstance = new BootstrapCarousel(carouselElement, {
+      interval: 3000, // auto-slide every 3 seconds
+      ride: "carousel",
+      pause: "hover",
+      wrap: true,
+      keyboard: true,
+    });
+
+    return () => {
+      carouselInstance.dispose(); // cleanup on unmount
+    };
+  }, []);
+
   return (
     <section className="main-container">
       <h2>Welcome to my Homepage</h2>
-      <div
-        id="imageCarousel"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        {/* Carousel indicators (dots) */}
+      <div id="imageCarousel" className="carousel slide" data-bs-ride="carousel">
+        {/* indicators */}
         <div className="carousel-indicators">
           {images.map((_, idx) => (
             <button
@@ -26,7 +38,7 @@ const Home = () => {
           ))}
         </div>
 
-        {/* Carousel inner slides */}
+        {/* carousel items */}
         <div className="carousel-inner">
           {images.map((imgSrc, idx) => (
             <div
@@ -47,7 +59,7 @@ const Home = () => {
           ))}
         </div>
 
-        {/* Carousel controls */}
+        {/* controls */}
         <button
           className="carousel-control-prev"
           type="button"
