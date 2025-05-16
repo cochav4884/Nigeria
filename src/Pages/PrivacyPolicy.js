@@ -1,8 +1,8 @@
 import React from "react";
-import "./PrivacyPolicy.css";
+import "../Styles/TermPrivacy.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 
 const PrivacyPolicy = () => {
   return (
