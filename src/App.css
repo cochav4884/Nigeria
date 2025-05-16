@@ -1,140 +1,60 @@
-/* Reset and base styles */
-body {
+/* Ensure the app takes up full height */
+html, body, #root {
+  height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white;
-  color: black;
+  padding: 0;
+}
+
+/* Make app-content stretch to full height and push footer to bottom */
+.app-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  flex: 1;
 }
 
-.App {
+/* Footer Styling */
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 1rem 0 0.5rem; /* extra bottom space for image */
   text-align: center;
-}
-
-/* NAVBAR */
-nav {
-  background-color: rgb(37, 15, 37);
-  padding: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
-}
-
-nav a,
-.dropbtn {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  background-color: transparent;
-  border: none;
-}
-
-nav a:hover,
-.dropbtn:hover {
-  background-color: rgb(128, 128, 128);
-  color: white;
-  transform: scale(1.05);
-}
-
-nav a.active {
-  background-color: white;
-  color: rgb(37, 15, 37);
-}
-
-/* Dropdown */
-.dropdown {
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
   position: relative;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-  z-index: 1;
-  right: 0;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  border-bottom: 1px solid rgb(128, 128, 128);
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(128, 128, 128);
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Responsive Menu Toggle */
-.menu-toggle {
-  display: none;
+.footer-content {
+  display: flex;
   flex-direction: column;
-  cursor: pointer;
+  align-items: center;
 }
 
-.menu-toggle span {
-  height: 3px;
-  width: 25px;
-  background-color: white;
-  margin: 4px 0;
-  transition: 0.4s;
+.footer-links {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: rgb(37, 15, 37);
-    margin-top: 1rem;
-  }
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-  .nav-links.open {
-    display: flex;
-  }
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 
-  .dropdown-content {
-    position: static;
-    box-shadow: none;
-    border-radius: 0;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: none;
-  }
-
-  .dropdown.active .dropdown-content {
-    display: block;
-  }
-
-  .menu-toggle {
-    display: flex;
-  }
+/* Small logo/image at the bottom */
+.footer-logo {
+  width: 40px;
+  height: auto;
+  margin-top: 0.5rem;
+  opacity: 0.6;
 }

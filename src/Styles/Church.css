@@ -1,0 +1,86 @@
+.church-main {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.church-header {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: rgb(37, 15, 37);
+  text-align: center;
+}
+
+.church-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.church-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.church-subheader {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(37, 15, 37);
+  text-align: center;
+}
+
+.church-contact {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #444;
+}
+
+.church-interview blockquote {
+  font-style: italic;
+  border-left: 4px solid rgb(37, 15, 37);
+  padding-left: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.church-interview strong {
+  color: rgb(37, 15, 37);
+}
+
+.church-footer {
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.church-footer a {
+  color: rgb(37, 15, 37);
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.3rem;
+}
+
+.church-footer a:hover {
+  text-decoration: underline;
+}
+
+.church-footer-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
