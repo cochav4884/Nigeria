@@ -1,0 +1,45 @@
+/* About.css adjusted to App.css theme */
+
+.header, .map {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+#map {
+  border: 2px solid rgb(37, 15, 37);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.text-light {
+  /* Since your body text is black on white, 
+     this can be dark text on light background */
+  color: black;
+  background-color: #f8f9fa; /* light gray background */
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+#picture, #picture1, #picture2 {
+  border-radius: 8px;
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 0.5rem;
+  background-color: rgb(37, 15, 37); /* dark purple */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(128, 128, 128); /* gray hover */
+  color: white;
+}
