@@ -1,3 +1,8 @@
+/* Container for the whole page content */
+.main_container {
+  background-color: rgb(34, 139, 34); /* forest green */
+}
+
 .container-color {
   background-color: rgb(33, 33, 33); /* soft black */
 }

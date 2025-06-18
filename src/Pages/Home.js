@@ -4,7 +4,7 @@ import "../Styles/Home.css";
 
 const Home = () => {
   return (
-    <section className="main-container">
+    <section className="main_container">
       <h2>Welcome to my Homepage</h2>
       <div
         id="imageCarousel"

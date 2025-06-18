@@ -1,7 +1,7 @@
 /* Page wrapper container */
 .main_container {
   min-height: 100vh;
-  background-color: #ffffff; /* White background */
+  background-color: rgb(34, 139, 34); /* forest green */
   color: #000000; /* Black text */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem 1rem;

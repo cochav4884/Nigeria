@@ -63,7 +63,8 @@ const residentsData = [
       imgSrc: "img/Awakening book.jpg",
       imgAlt: "Awaken the Giant Within",
     },
-    passion: "My biggest passion is music. I want to make good music heard around the world.",
+    passion:
+      "My biggest passion is music. I want to make good music heard around the world.",
     favoriteDish: {
       description: "My favorite Nigerian dish is Spaghetti.",
       link: "https://www.pulse.ng/lifestyle/food-travel/nigerian-recipes-how-to-make-nigerian-spaghetti-like-a-pro/1bkhhhr",
@@ -105,7 +106,7 @@ const residentsData = [
     inspiration:
       "Well, am being inspired by the way people around me push harder despite the difficulties being faced in Nigeria. For instance, if a bad incident occurs, am being inspired by the way people joke around to eliminate bad feelings of being depressed.",
     cheersUp:
-      'The one thing I do that cheers people up around me is I give positive vibes even when it seems everything is crumbling.',
+      "The one thing I do that cheers people up around me is I give positive vibes even when it seems everything is crumbling.",
     unusualExperience:
       "Well, I had a shocking experience during the End SARS protest in my neighborhood. Instead of them being in a panic, they were drumming, dancing, eating, and drinking while still blocking the road. I was just so shocked and confused by this behavior.",
     surveyFeeling:
@@ -122,111 +123,115 @@ const Residents = () => {
   };
 
   return (
-    <main className="residents-container">
-      <h1>Residents</h1>
-      {residentsData.map((resident, idx) => (
-        <div className="accordion-item" key={resident.name}>
-          <div
-            className={`accordion-header ${
-              activeIndex === idx ? "active" : ""
-            }`}
-            onClick={() => toggleAccordion(idx)}
-          >
-            {resident.name}
-          </div>
-          <div
-            className={`accordion-body ${activeIndex === idx ? "active" : ""}`}
-          >
-            <p>
-              <strong>Where do you like to hangout in town?</strong>
-              <br />
-              {resident.hangout}
-            </p>
-
-            {resident.favoriteMovie && (
+    <div className="main_container">
+      <main className="residents-container">
+        <h1>Residents</h1>
+        {residentsData.map((resident, idx) => (
+          <div className="accordion-item" key={resident.name}>
+            <div
+              className={`accordion-header ${
+                activeIndex === idx ? "active" : ""
+              }`}
+              onClick={() => toggleAccordion(idx)}
+            >
+              {resident.name}
+            </div>
+            <div
+              className={`accordion-body ${
+                activeIndex === idx ? "active" : ""
+              }`}
+            >
               <p>
-                <strong>What is your favorite book or movie?</strong>
+                <strong>Where do you like to hangout in town?</strong>
                 <br />
-                {resident.favoriteMovie.title}
-                <br />
-                <a
-                  href={resident.favoriteMovie.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={resident.favoriteMovie.imgSrc}
-                    alt={resident.favoriteMovie.imgAlt}
-                  />
-                </a>
+                {resident.hangout}
               </p>
-            )}
 
-            <p>
-              <strong>What is your biggest passion?</strong>
-              <br />
-              {resident.passion}
-            </p>
-
-            <p>
-              <strong>What is your favorite Nigerian dish?</strong>
-              <br />
-              {resident.favoriteDish?.description}
-              <br />
-              {resident.favoriteDish && (
-                <a
-                  href={resident.favoriteDish.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={resident.favoriteDish.imgSrc}
-                    alt={resident.favoriteDish.imgAlt}
-                  />
-                </a>
+              {resident.favoriteMovie && (
+                <p>
+                  <strong>What is your favorite book or movie?</strong>
+                  <br />
+                  {resident.favoriteMovie.title}
+                  <br />
+                  <a
+                    href={resident.favoriteMovie.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={resident.favoriteMovie.imgSrc}
+                      alt={resident.favoriteMovie.imgAlt}
+                    />
+                  </a>
+                </p>
               )}
-            </p>
 
-            <p>
-              <strong>
-                What is the toughest decision you have had to make that made the
-                biggest impact in your life?
-              </strong>
-              <br />
-              {resident.toughestDecision}
-            </p>
+              <p>
+                <strong>What is your biggest passion?</strong>
+                <br />
+                {resident.passion}
+              </p>
 
-            <p>
-              <strong>How do the people around you inspire you?</strong>
-              <br />
-              {resident.inspiration}
-            </p>
+              <p>
+                <strong>What is your favorite Nigerian dish?</strong>
+                <br />
+                {resident.favoriteDish?.description}
+                <br />
+                {resident.favoriteDish && (
+                  <a
+                    href={resident.favoriteDish.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={resident.favoriteDish.imgSrc}
+                      alt={resident.favoriteDish.imgAlt}
+                    />
+                  </a>
+                )}
+              </p>
 
-            <p>
-              <strong>
-                What is the one thing you do that cheers up people around you?
-              </strong>
-              <br />
-              {resident.cheersUp}
-            </p>
+              <p>
+                <strong>
+                  What is the toughest decision you have had to make that made
+                  the biggest impact in your life?
+                </strong>
+                <br />
+                {resident.toughestDecision}
+              </p>
 
-            <p>
-              <strong>What is one unusual experience you have had?</strong>
-              <br />
-              {resident.unusualExperience}
-            </p>
+              <p>
+                <strong>How do the people around you inspire you?</strong>
+                <br />
+                {resident.inspiration}
+              </p>
 
-            <p>
-              <strong>How do you feel about this survey so far?</strong>
-              <br />
-              {resident.surveyFeeling}
-            </p>
+              <p>
+                <strong>
+                  What is the one thing you do that cheers up people around you?
+                </strong>
+                <br />
+                {resident.cheersUp}
+              </p>
 
-            <p>{resident.hbgChange}</p>
+              <p>
+                <strong>What is one unusual experience you have had?</strong>
+                <br />
+                {resident.unusualExperience}
+              </p>
+
+              <p>
+                <strong>How do you feel about this survey so far?</strong>
+                <br />
+                {resident.surveyFeeling}
+              </p>
+
+              <p>{resident.hbgChange}</p>
+            </div>
           </div>
-        </div>
-      ))}
-    </main>
+        ))}
+      </main>
+    </div>
   );
 };
 

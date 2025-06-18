@@ -1,6 +1,6 @@
 /* Main container with white background and black text */
 .main_container, #main-color {
-  background-color: #ffffff; /* white */
+   background-color: rgb(34, 139, 34); /* forest green */
   padding: 20px;
   color: #000000; /* true black */
 }
