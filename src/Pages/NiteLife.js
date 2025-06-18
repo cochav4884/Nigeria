@@ -19,7 +19,7 @@ import niteLife8 from "../images/nitelife8.jpg";
 const NiteLife = () => {
   return (
     <div className="main_container">
-      <h1 className="header">
+      <h1>
         Akute, Ogun State, Nigeria <br /> <em>*Nitelife*</em>
       </h1>
 

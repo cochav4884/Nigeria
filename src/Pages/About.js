@@ -29,7 +29,7 @@ function About() {
   return (
     <div className="main_container">
       <div className="container my-4" id="container-color">
-        <h1 className="header mb-4">
+        <h1>
           Akute, Ogun State, Nigeria <br />
           <em>*About Page*</em>
         </h1>

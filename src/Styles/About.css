@@ -7,11 +7,16 @@
   background-color: rgb(33, 33, 33); /* soft black */
 }
 
-.header, .map {
+h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(255, 255, 255); /* white */
+  color: #000000; 
   text-align: center;
-  background-color: rgb(33, 33, 33);
+}
+
+.map {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  text-align: center;
 }
 
 #map {

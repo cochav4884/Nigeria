@@ -5,12 +5,9 @@
 }
 
 h2 {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  background-color: rgb(255, 215, 0); /* yellow background */
+  color: #000000;
   text-align: center;
-  padding: 10px 0;
-  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {

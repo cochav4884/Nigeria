@@ -125,7 +125,7 @@ const Residents = () => {
   return (
     <div className="main_container">
       <main className="residents-container">
-        <h1>Residents</h1>
+        <h1 className="residents-title">Residents</h1>
         {residentsData.map((resident, idx) => (
           <div className="accordion-item" key={resident.name}>
             <div

@@ -1,7 +1,8 @@
 /* Container for the whole page content */
 .main_container {
   background-color: rgb(34, 139, 34); /* forest green */
-}
+} 
+
 .residents-container {
   max-width: 900px;
   margin: 2rem auto;
@@ -13,12 +14,18 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.residents-container h1 {
+h1 {
   text-align: center;
   margin-bottom: 1.5rem;
   color: #000000; /* green header */
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.residents-title {
+  color: #000000; /* black text */
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Accordion styles */
@@ -31,8 +38,8 @@
 }
 
 .accordion-header {
-  background-color: #ffc107; /* yellow */
-  color: #000000; /* black text */
+  background-color: #000000; /* black header */
+  color: #ffffff; /* white text */
   cursor: pointer;
   padding: 1rem 1.5rem;
   font-weight: 600;
@@ -45,7 +52,8 @@
 }
 
 .accordion-header:hover {
-  background-color: #ffda33; /* lighter yellow */
+  background-color: #ffffff; /* lighter yellow */
+  color: #000000; /* black text on hover */
 }
 
 .accordion-header::after {
