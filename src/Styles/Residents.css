@@ -52,7 +52,7 @@ h1 {
 }
 
 .accordion-header:hover {
-  background-color: #ffffff; /* lighter yellow */
+  background-color: #ffd700; /* gold */
   color: #000000; /* black text on hover */
 }
 

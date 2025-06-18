@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders welcome heading', () => {
   render(<App />);
-  const headingElement = screen.getByText(/welcome to my homepage/i);
+  const headingElement = screen.getByText(/Akute, Ogun State, Nigeria/i);
   expect(headingElement).toBeInTheDocument();
 });

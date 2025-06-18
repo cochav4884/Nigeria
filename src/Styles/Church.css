@@ -1,10 +1,8 @@
 /* Page wrapper container */
 .main_container {
-  
   background-color: rgb(34, 139, 34); /* forest green */
   color: #000000; /* Black text */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
   align-items: center;
 }
 
@@ -17,16 +15,6 @@
   box-shadow: 0 6px 12px rgba(34, 139, 34, 0.3); /* Green shadow */
   padding: 2rem;
   color: #000000; /* Black text */
-}
-
-/* Header */
-.church-header {
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
-  font-weight: 700;
-  color: #228b22; /* Forest Green */
-  text-align: center;
-  text-shadow: 1px 1px 2px #ffd700; /* Gold/yellow glow */
 }
 
 /* Section blocks */
@@ -45,11 +33,10 @@
 }
 
 /* Subheader */
-.church-subheader {
+.subheader {
   font-size: 1.8rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  color: #006400; /* Dark Green */
+  margin: 2rem 0 1rem 0;
+  color: #228b22;
   text-align: center;
   font-weight: 600;
 }
@@ -64,18 +51,16 @@
 }
 
 /* Interview blockquote styling */
-.church-interview blockquote {
+.interview-section blockquote {
   font-style: italic;
-  border-left: 4px solid #ffd700; /* Yellow accent */
   padding-left: 1rem;
-  color: #000000; /* Black text */
+  color: #fff;
   max-width: 600px;
   margin: 0 auto 2rem auto;
-  background: #ffffe0; /* Light yellow background */
+  background: #000000;
   border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(255, 215, 0, 0.5); /* Yellow glow */
+  box-shadow: 0 4px 6px rgba(34, 139, 34, 0.4);
 }
-
-.church-interview strong {
-  color: #228b22; /* Forest Green */
+.interview-section strong {
+  color:  rgb(34, 139, 34); /* Forest Green */
 }

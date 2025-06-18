@@ -1,16 +1,22 @@
+.main_container {
+  padding: 20px;
+  background-color: rgb(34, 139, 34); /* forest green */
+  color: rgb(0, 0, 0); /* black text */
+}
+
 .container {
   max-width: 900px;
   margin: 2rem auto;
-  background-color: #222222; /* dark background for content */
+  background-color: #ffd700; /* gold */
   color: #fff;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 0 12px rgba(34, 139, 34, 0.4); /* subtle green glow */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 12px rgba(34, 139, 34, 0.4);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .page-header {
-  color: #000000; /* Forest Green */
+  color: #000000;
   font-weight: 700;
   font-size: 2.4rem;
   text-align: center;
@@ -20,6 +26,17 @@
 .section {
   margin-bottom: 2rem;
   text-align: center;
+  color: #ffffff; /* white text */
+  text-shadow: none;
+}
+
+.page-header {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #228b22; /* Forest Green */
+  text-align: center;
+  text-shadow: 1px 1px 2px #ffd700; /* Gold/yellow glow */
 }
 
 .page-image {
@@ -36,6 +53,12 @@
   color: #228b22;
   text-align: center;
   font-weight: 600;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  text-align: center;
 }
 
 .contact-info {

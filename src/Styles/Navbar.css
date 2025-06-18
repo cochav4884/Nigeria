@@ -1,7 +1,6 @@
 /* NavBar Container */
 nav {
-  background-color: rgb(34, 139, 34); /* forest green */
-  color: rgb(255, 255, 255); /* white */
+  background-color: #000000; /* white background */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,7 +35,8 @@ nav {
 }
 
 .nav-links a {
-  color: rgb(255, 255, 255); /* white */
+  background-color: rgb(34, 139, 34); /* forest green */
+  color: #ffffff; /* white */
   text-decoration: none;
   transition: color 0.3s ease;
   font-weight: 600;

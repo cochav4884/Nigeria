@@ -19,43 +19,63 @@ import niteLife8 from "../images/nitelife8.jpg";
 const NiteLife = () => {
   return (
     <div className="main_container">
-      <h1>
-        Akute, Ogun State, Nigeria <br /> <em>*Nitelife*</em>
-      </h1>
+      <div className="container-fluid">
+        <header className="page-header">
+          <h1>Akute, Ogun State, Nigeria</h1>
+        </header>
 
-      <div className="container">
+        <h2 className="section">* Nitelife Page *</h2>
         <hr />
-        <section className="section-nitelife">
-          <img src={gasStation1} className="nitelife-pics" alt="Gas Station 1" />
-          <img src={gasStation2} className="nitelife-pics" alt="Gas Station 2" />
-          <img src={niteLife1} className="nitelife-pics" alt="Nite Life 1" />
-        </section>
 
-        <br />
+        <div className="container">
+          <section className="section-nitelife">
+            <img
+              src={gasStation1}
+              className="nitelife-pics"
+              alt="Gas Station 1"
+            />
+            <img
+              src={gasStation2}
+              className="nitelife-pics"
+              alt="Gas Station 2"
+            />
+            <img src={niteLife1} className="nitelife-pics" alt="Nite Life 1" />
+          </section>
 
-        <section className="section-nitelife">
-          <img src={img2} className="nitelife-pics" alt="IMG 2" />
-          <img src={clothingStore1} className="nitelife-pics" alt="Clothing Store 1" />
-          <img src={groceryStore2} className="nitelife-pics" alt="Grocery Store 2" />
-        </section>
+          <br />
 
-        <br />
+          <section className="section-nitelife">
+            <img src={img2} className="nitelife-pics" alt="IMG 2" />
+            <img
+              src={clothingStore1}
+              className="nitelife-pics"
+              alt="Clothing Store 1"
+            />
+            <img
+              src={groceryStore2}
+              className="nitelife-pics"
+              alt="Grocery Store 2"
+            />
+          </section>
 
-        <section className="section-nitelife">
-          <img src={niteLife2} className="nitelife-pics" alt="Nite Life 2" />
-          <img src={niteLife3} className="nitelife-pics" alt="Nite Life 3" />
-          <img src={niteLife4} className="nitelife-pics" alt="Nite Life 4" />
-        </section>
+          <br />
 
-        <br />
+          <section className="section-nitelife">
+            <img src={niteLife2} className="nitelife-pics" alt="Nite Life 2" />
+            <img src={niteLife3} className="nitelife-pics" alt="Nite Life 3" />
+            <img src={niteLife4} className="nitelife-pics" alt="Nite Life 4" />
+          </section>
 
-        <section className="section-nitelife">
-          <img src={niteLife6} className="nitelife-pics" alt="Nite Life 6" />
-          <img src={niteLife7} className="nitelife-pics" alt="Nite Life 7" />
-          <img src={niteLife8} className="nitelife-pics" alt="Nite Life 8" />
-        </section>
+          <br />
 
-        <hr />
+          <section className="section-nitelife">
+            <img src={niteLife6} className="nitelife-pics" alt="Nite Life 6" />
+            <img src={niteLife7} className="nitelife-pics" alt="Nite Life 7" />
+            <img src={niteLife8} className="nitelife-pics" alt="Nite Life 8" />
+          </section>
+
+          <hr />
+        </div>
       </div>
     </div>
   );

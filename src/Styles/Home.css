@@ -1,14 +1,3 @@
-.main_container {
-  padding: 20px;
-  background-color: rgb(34, 139, 34); /* forest green */
-  color: rgb(0, 0, 0); /* black text */
-}
-
-h2 {
-  color: #000000;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 p {
   font-size: 1.1rem;
