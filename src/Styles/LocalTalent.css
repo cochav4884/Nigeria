@@ -83,8 +83,12 @@ h4 {
   font-size: 1rem;
 }
 
+.flip-box-back p {
+  color: #ffffff; /* white text */
+}
+
 /* Buttons styled as forest green with white text */
-.button1, .btn {
+.custom-btn {
   background-color: #228b22; /* forest green */
   color: #000000; /* white text */
   border: none;
@@ -99,9 +103,9 @@ h4 {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* black shadow */
 }
 
-.button1:hover, .btn:hover {
-  background-color: #006400; /* darker green */
-  color: #ffffff; /* white text */
+.custom-btn:hover {
+  background-color: #ffd700; /* gold */
+  color: #228b22; /* forest green */
 }
 
 /* Images inside flip box front */

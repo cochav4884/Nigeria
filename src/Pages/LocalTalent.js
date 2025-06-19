@@ -52,7 +52,7 @@ const LocalTalent = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <button className="button button1 mt-2">
+                            <button className="custom-btn mt-2">
                               Song Title: FLIP SIDE
                             </button>
                           </a>
@@ -64,7 +64,7 @@ const LocalTalent = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <button className="button button1 mt-2">
+                            <button className="custom-btn mt-2">
                               More songs by: TRIPP
                             </button>
                           </a>
