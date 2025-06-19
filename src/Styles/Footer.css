@@ -22,12 +22,23 @@
   text-decoration: underline;
 }
 
+.date {
+  color: #228b22; /* Forest Green */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-content p {
+  display: inline-block;
   margin: 0.3rem 0;
+  text-align: center;
 }
 
 .footer-content p a {
-  color: #228b22; /* Forest Green */
+ 
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -50,4 +61,18 @@
   opacity: 0.9;
   border-radius: 4px;
   box-shadow: 0 2px 5px rgba(34, 139, 34, 0.5); /* Forest Green shadow */
+}
+
+.back-to-top {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  background-color: #228b22; /* Forest Green */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
 }
