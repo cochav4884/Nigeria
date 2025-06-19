@@ -38,8 +38,8 @@ h1 {
 }
 
 .accordion-header {
-  background-color: #000000; /* black header */
-  color: #ffffff; /* white text */
+  background-color: #ffd700; /* gold header */
+  color: #000000; /* black text */
   cursor: pointer;
   padding: 1rem 1.5rem;
   font-weight: 600;
@@ -52,8 +52,8 @@ h1 {
 }
 
 .accordion-header:hover {
-  background-color: #ffd700; /* gold */
-  color: #000000; /* black text on hover */
+  background-color: #000000; /* black */
+  color: #ffffff; /* white text on hover */
 }
 
 .accordion-header::after {
