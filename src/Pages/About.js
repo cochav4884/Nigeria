@@ -64,7 +64,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn btn-primary" type="button">
+                <button className="custom-btn" type="button">
                   Click Me
                 </button>
               </a>
@@ -95,7 +95,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn btn-secondary" type="button">
+                <button className="custom-btn" type="button">
                   Click Me
                 </button>
               </a>
@@ -126,7 +126,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn btn-secondary" type="button">
+                <button className="custom-btn" type="button">
                   Click Me
                 </button>
               </a>

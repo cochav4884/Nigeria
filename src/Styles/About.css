@@ -8,7 +8,7 @@
 
 .text-light {
   color: rgb(255, 255, 255);               /* white */
-  background-color: rgb(34, 139, 34);      /* forest green */
+  background-color: #000000;      /* forest green */
   padding: 1rem;
   border-radius: 0.5rem;
 }
@@ -20,10 +20,10 @@
   width: 100%;
 }
 
-.btn {
+.custom-btn {
   margin-top: 0.5rem;
-  background-color: #ffd700; /* gold */
-  color: rgb(0, 0, 0);               /* black text */
+  background-color: rgb(34, 139, 34); /* forrest green */
+  color: #ffffff;               /* white text */
   border: none;
   border-radius: 8px;
   padding: 0.5rem 1rem;
@@ -31,7 +31,7 @@
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: rgb(204, 153, 0); /* amber hover */
-  color: rgb(255, 255, 255);          /* white text */
+.custom-btn:hover {
+  background-color: #ffd700; /* gold */
+  color: #000000; /* black text */
 }
