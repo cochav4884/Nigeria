@@ -109,7 +109,7 @@ const Church = () => {
               education, Pastor Amos felt called by God to serve as a leader.
             </p>
           </section>
-
+          <hr />
           <h2 className="subheader">*Interview with Pastor Amos Onogwu*</h2>
 
           <section className="interview-section">
