@@ -16,6 +16,8 @@
 }
 
 .page-header {
+  background-color: #ffffff; /* white background */;
+  border-radius: 8px;
   color: #000000;
   font-weight: 700;
   font-size: 2.4rem;
@@ -28,15 +30,6 @@
   text-align: center;
   color: #ffffff; /* white text */
   text-shadow: none;
-}
-
-.page-header {
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
-  font-weight: 700;
-  color: #228b22; /* Forest Green */
-  text-align: center;
-  text-shadow: 1px 1px 2px #ffd700; /* Gold/yellow glow */
 }
 
 .page-image {

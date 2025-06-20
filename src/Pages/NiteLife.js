@@ -24,7 +24,7 @@ const NiteLife = () => {
           <h1>Akute, Ogun State, Nigeria</h1>
         </header>
 
-        <h2 className="section">* Nitelife Page *</h2>
+        <h2 className="section">* Nitelife in Akute! *</h2>
         <hr />
 
         <div className="container">

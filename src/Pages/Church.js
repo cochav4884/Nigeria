@@ -10,8 +10,8 @@ const Church = () => {
       <div className="container-fluid">
         <header className="page-header">
           <h1>Akute, Ogun State, Nigeria</h1>
-          <h2 className="section"> * Church Page *</h2>
         </header>
+        <h2 className="section"> * Meet Pastor Amous Onogwu! *</h2>
         <hr />
         <div className="container">
           <section className="section">

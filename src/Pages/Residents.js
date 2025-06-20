@@ -125,10 +125,10 @@ const Residents = () => {
   return (
     <div className="main_container">
       <main className="container-fluid">
-        <deader className="page-header">
+        <header className="page-header">
           <h1>Akute, Ogun State, Nigeria</h1>
-        </deader>
-        <h2 className="section">* Residents Page *</h2>
+        </header>
+        <h2 className="section">* Meet The Residents of Akute! *</h2>
         <hr />
         {residentsData.map((resident, idx) => (
           <div className="accordion-item" key={resident.name}>

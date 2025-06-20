@@ -14,7 +14,7 @@ const LocalTalent = () => {
           <h1>Akute, Ogun State, Nigeria</h1>
         </header>
 
-        <h2 className="section">* Local Talent *</h2>
+        <h2 className="section">* Meet Akute's Local Talent! *</h2>
         <hr />
         <div className="container">
           {/* First Box */}

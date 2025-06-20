@@ -10,7 +10,7 @@ const Home = () => {
           <header className="page-header">
             <h1>Akute, Ogun State, Nigeria</h1>
           </header>
-          <h2 className="section">* Photographs of Akute *</h2>
+          <h2 className="section">* Photographs of Akute By Resident: Richie Osborne! *</h2>
           <hr /> 
           <section className="container">
           <div

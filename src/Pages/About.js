@@ -31,8 +31,8 @@ function About() {
       <div className="container-fluid">
         <header className="page-header">
           <h1>Akute, Ogun State, Nigeria</h1>
-          <h2 className="section">* About Page *</h2>
         </header>
+        <h2 className="section">* Learn More About Akute! *</h2>
         <hr />
 
         <div className="container">
@@ -42,7 +42,7 @@ function About() {
             id="map"
             style={{ height: "400px", width: "100%", marginBottom: "1rem" }}
           ></div>
-          
+
           <hr />
 
           <section className="mb-5">
@@ -56,7 +56,7 @@ function About() {
               alt="City of Peace in Akute, Ogun State, Nigeria"
               id="picture"
             />
-            
+
             <p className="text-light fs-5 text-center mt-3">
               For more information, please click on the link{" "}
               <a
@@ -87,7 +87,7 @@ function About() {
               alt="Tropical rainforest in Ogun State, Nigeria"
               id="picture1"
             />
-            
+
             <p className="text-light fs-5 text-center mt-3">
               For more information, please click on the link{" "}
               <a
@@ -118,7 +118,7 @@ function About() {
               alt="Population statistics of Nigeria"
               id="picture2"
             />
-            
+
             <p className="text-light fs-5 text-center mt-3">
               For more information, please click on the link{" "}
               <a
