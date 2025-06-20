@@ -11,7 +11,6 @@ import spaghettiImg from "../images/spaghetti.jpg";
 import queenMovieImg from "../images/queen_movie.jpg";
 import oriahImg from "../images/oriah.jpg";
 
-
 const residentsData = [
   {
     name: "Israel Alex Obiorah",
@@ -241,7 +240,11 @@ const Residents = () => {
                 {resident.surveyFeeling}
               </p>
 
-              <p>{resident.hbgChange}</p>
+              <p>
+                <strong>How has the Heartbeat of God (HBD) changed you?</strong>
+                <br />
+                {resident.hbgChange}
+              </p>
             </div>
           </div>
         ))}
