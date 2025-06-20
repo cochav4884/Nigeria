@@ -36,7 +36,7 @@ function About() {
         <hr />
 
         <div className="container">
-          <h2 className="map mb-4">Map of Akute, Ogun State, Nigeria</h2>
+          <p className="custom-p">Map of Akute, Ogun State, Nigeria</p>
           <div
             className="page-image"
             id="map"
@@ -46,10 +46,10 @@ function About() {
           <hr />
 
           <section className="mb-5">
-            <h2 className="map mt-3">
+            <p className="custom-p">
               Akute, Ogun State, Nigeria is considered an International City of
               Peace.
-            </h2>
+            </p>
             <img
               className="img-fluid"
               src={cityOfPeace}
@@ -57,7 +57,7 @@ function About() {
               id="picture"
             />
 
-            <p className="text-light fs-5 text-center mt-3">
+            <p className="custom-p">
               For more information, please click on the link{" "}
               <a
                 href="https://www.internationalcitiesofpeace.org/cities-listing/akute-ogun-nigeria/"
@@ -68,19 +68,18 @@ function About() {
                   Click Me
                 </button>
               </a>
-              .
             </p>
           </section>
           <hr />
 
           <section className="mb-5">
-            <h2 className="map mt-3">
+            <p className="custom-p">
               Ogun State, Nigeria: created in 1976, bounded by the Oyo and Osun
               states to the north, Lagos state to the south, Ondo state to the
               east, and the Republic of Benin to the west. Ogun state produces
               rice, corn, cassava, yams, plantains, and bananas, and is covered
               predominantly by tropical rainforest.
-            </h2>
+            </p>
             <img
               className="img-fluid"
               src={rainforest}
@@ -88,7 +87,7 @@ function About() {
               id="picture1"
             />
 
-            <p className="text-light fs-5 text-center mt-3">
+            <p className="custom-p">
               For more information, please click on the link{" "}
               <a
                 href="https://www.britannica.com/place/Ogun-state-Nigeria"
@@ -99,19 +98,18 @@ function About() {
                   Click Me
                 </button>
               </a>
-              .
             </p>
           </section>
           <hr />
 
           <section className="mb-5">
-            <h2 className="map mt-3">
+            <p className="custom-p">
               Nigeria: Home to several indigenous pre-colonial states, a
               multi-national state of more than 250 ethnic groups who speak 500
               distinct languages. Nigeria became independent on October 1, 1960,
               and is a federation of 36 states and one federal capital
               territory. Nigeria is ruled by State and Local Governments.
-            </h2>
+            </p>
             <img
               className="img-fluid"
               src={population}
@@ -119,7 +117,7 @@ function About() {
               id="picture2"
             />
 
-            <p className="text-light fs-5 text-center mt-3">
+            <p className="custom-p">
               For more information, please click on the link{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Nigeria"
@@ -130,7 +128,6 @@ function About() {
                   Click Me
                 </button>
               </a>
-              .
             </p>
           </section>
           <hr />
