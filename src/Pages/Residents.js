@@ -1,6 +1,17 @@
 import React, { useState } from "react";
 import "../Styles/Residents.css";
 
+// Import your images
+import thinkLikeAManImg from "../images/think_like_a_man.jpg";
+import veggieYamFlourImg from "../images/veggie_yam_flour.jpg";
+import exampleMovieImg from "../images/example_movie.jpg";
+import poundedYamImg from "../images/pounded_yam_black_soup.jpg";
+import awakenBookImg from "../images/awakening_book.jpg";
+import spaghettiImg from "../images/spaghetti.jpg";
+import queenMovieImg from "../images/queen_movie.jpg";
+import oriahImg from "../images/oriah.jpg";
+
+
 const residentsData = [
   {
     name: "Israel Alex Obiorah",
@@ -8,14 +19,14 @@ const residentsData = [
     favoriteMovie: {
       title: "Think Like a Man",
       link: "https://www.vudu.com/content/movies/details/Think-Like-a-Man/324379",
-      imgSrc: "img/Think Like A Man.jpg",
+      imgSrc: thinkLikeAManImg,
       imgAlt: "Think Like A Man",
     },
     passion: "My biggest passion is to explore the world.",
     favoriteDish: {
       description: "My favorite Nigerian dish is Vegetables and Yam Flour.",
       link: "https://www.radianthealthmag.com/healthy-eating/9-nigerian-swallows-every-palate/",
-      imgSrc: "img/veggie & yam flour.jpg",
+      imgSrc: veggieYamFlourImg,
       imgAlt: "Vegetables and Yam Flour",
     },
     toughestDecision:
@@ -36,14 +47,14 @@ const residentsData = [
     favoriteMovie: {
       title: "Example Movie",
       link: "#",
-      imgSrc: "img/example.jpg",
+      imgSrc: exampleMovieImg,
       imgAlt: "Example Movie",
     },
     passion: "Example passion text.",
     favoriteDish: {
       description: "My favorite Nigerian dish is Pounded Yam and Black Soup.",
       link: "https://goldpeakfoods.com/product/pounded-yam-and-black-soup-with-turkey/",
-      imgSrc: "img/pounded yam and black soup.jpg",
+      imgSrc: poundedYamImg,
       imgAlt: "Pounded Yam and Black Soup",
     },
     toughestDecision: "Example toughest decision.",
@@ -60,7 +71,7 @@ const residentsData = [
     favoriteMovie: {
       title: 'My favorite book is "Awaken the Giant Within" by Tony Robbins.',
       link: "https://www.audible.com/ep/title/?asin=B002V1OHGE&source_code=GO1GBSH09091690EI&device=d&cvosrc=ppc.google.awaken%20the%20giant%20within&cvo_campaign=250472289&cvo_crid=260134382328&Matchtype=e&ds_rl=1262685&ds_rl=1263561&ds_rl=1260658&gclid=Cj0KCQjw4PKTBhD8ARIsAHChzRJ0NaO-5rvJVO428L410R0FR-ynum0IcQf5Fmmjn3kpnQ6t4JwzZsYaAgonEALw_wcB&gclsrc=aw.ds",
-      imgSrc: "img/Awakening book.jpg",
+      imgSrc: awakenBookImg,
       imgAlt: "Awaken the Giant Within",
     },
     passion:
@@ -68,7 +79,7 @@ const residentsData = [
     favoriteDish: {
       description: "My favorite Nigerian dish is Spaghetti.",
       link: "https://www.pulse.ng/lifestyle/food-travel/nigerian-recipes-how-to-make-nigerian-spaghetti-like-a-pro/1bkhhhr",
-      imgSrc: "img/spaghetti.jpg",
+      imgSrc: spaghettiImg,
       imgAlt: "spaghetti",
     },
     toughestDecision:
@@ -90,7 +101,7 @@ const residentsData = [
     favoriteMovie: {
       title: 'My favorite movie is "Queen of the South."',
       link: "https://www.watchnow.com/show/queen-of-the-south?utm_source=Google&utm_medium=Search&t_source=64&utm_campaign=2566&gad_source=5&gclid=EAIaIQobChMIqIWu7tjCiwMVNdfCBB2UbCCDEAAYASAAEgJHx_D_BwE",
-      imgSrc: "img/Queen movie.jpg",
+      imgSrc: queenMovieImg,
       imgAlt: "Queen of the South",
     },
     passion:
@@ -98,7 +109,7 @@ const residentsData = [
     favoriteDish: {
       description: "My favorite Nigerian dish is Spaghetti Bolognese.",
       link: "https://allure.vanguardngr.com/2021/11/how-to-make-nigerian-spaghetti-bolognese-in-10-easy-steps/",
-      imgSrc: "img/oriah.jpg",
+      imgSrc: oriahImg,
       imgAlt: "spaghetti bolognese",
     },
     toughestDecision:
