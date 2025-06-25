@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import singerImg from "../images/singer.jpg";
 import musicWriterImg from "../images/music_writer.jpg";
-import flipSideAudio from "../assets/trippFlip_SideProdBySolDre.mp3";
 const LocalTalent = () => {
   return (
     <div className="main_container">
@@ -14,7 +13,7 @@ const LocalTalent = () => {
         </header>
 
         <h2 className="section">* Meet Akute's Local Talent! *</h2>
-        <hr />
+
         <div className="container">
           {/* First Box */}
           <div className="box mb-4">
@@ -44,28 +43,24 @@ const LocalTalent = () => {
                         <p>
                           <b>TRIPP - FLIP SIDE</b>
                           <br />
-                          To listen to his song, click below!
+                          Listen Below!
                           <br />
                           <a
-                            href={flipSideAudio}
+                            href="/assets/trippFlip_SideProdBySolDre.mp3"
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <button className="custom-btn mt-2">
-                              Song Title: FLIP SIDE
-                            </button>
+                            <button className="btn-link">FLIP SIDE</button>
                           </a>
                           <br />
-                          To hear more songs by TRIPP click below!
+                          Want more of TRIPP's music!
                           <br />
                           <a
-                            href="https://cochav4884.github.io/Akute-Ogun-State-Nigeria/roc.html"
+                            href="//src/Pages/Richie.js"
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <button className="custom-btn mt-2">
-                              More songs by: TRIPP
-                            </button>
+                            <button className="btn-link">TRIPP</button>
                           </a>
                         </p>
                       </div>
@@ -73,7 +68,7 @@ const LocalTalent = () => {
                   </div>
 
                   {/* Text below the flip card */}
-                  <div className="text-below-card mt-3">
+                  <div>
                     <h4>
                       <b>Richie Osborne</b> <br />
                       Artist Name: TRIPP
