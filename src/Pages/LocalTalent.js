@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/LocalTalent.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 import singerImg from "../images/singer.jpg";
 import musicWriterImg from "../images/music_writer.jpg";
@@ -55,13 +56,9 @@ const LocalTalent = () => {
                           <br />
                           Want more of TRIPP's music!
                           <br />
-                          <a
-                            href="//src/Pages/Richie.js"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="btn-link">TRIPP</button>
-                          </a>
+                          <Link className="btn-link" to="/richie">
+                            TRIPP
+                          </Link>
                         </p>
                       </div>
                     </div>
