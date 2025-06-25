@@ -1,6 +1,6 @@
 import React from "react";
 import corinne from "../images/corinne.jpg";
-import "../Styles/Corinne.css";
+import "../Styles/CRA_Biography.css";
 
 // For PDF generation we'll use jsPDF and html2canvas
 import jsPDF from "jspdf";
@@ -63,13 +63,13 @@ const Corinne = () => {
           <div className="col-md-5 mb-4">
             <img
               src={corinne}
-              alt="Portrait of Corinne"
+              alt="Portrait of Corinne Padilla"
               className="page-image img-fluid"
               style={{ maxWidth: "100%", height: "auto", borderRadius: "8px", boxShadow: "0 4px 6px #000" }}
             />
           </div>
 
-          {/* Text on right */}
+          {/* Biography content on right */}
           <div className="col-md-7">
             <article>
               <section>
