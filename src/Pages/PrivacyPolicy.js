@@ -14,7 +14,6 @@ const PrivacyPolicy = () => {
           <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
         </header>
         <h2 className="section">* Privacy Policy *</h2>
-        <hr />
         <ul className="container">
           <div id="top" aria-label="Top of Page" tabIndex="-1"></div>
           <h2 className="section text-dark">* Table of Contents *</h2>
