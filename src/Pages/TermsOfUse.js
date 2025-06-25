@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/TermPrivacy.css";
+import { Link } from "react-router-dom";
 
 const TermsOfUse = () => {
   const scrollToTop = () => {
@@ -15,38 +16,141 @@ const TermsOfUse = () => {
 
         <h2 className="section">* Term of Use *</h2>
 
-             <ul class="container">
-                
-                <div id="top" aria-label="Top of page" tabIndex="-1"></div>
-                <h2 class="section text-dark">* Table of Contents *</h2>
-                <li><a className="btn-link" href="#S01">Agreements to Terms</a></li>
-                <li><a className="btn-link" href="#S02">Intellectual Property Rights</a></li>
-                <li><a className="btn-link" href="#S03">User Representations</a></li>
-                <li><a className="btn-link" href="#S04">Prohibited Activities</a></li>
-                <li><a className="btn-link" href="#S05">User Generated Contributions</a></li>
-                <li><a className="btn-link" href="#S06">Contribution License</a></li>
-                <li><a className="btn-link" href="#S07">Guidlines For Reviews</a></li>
-                <li><a className="btn-link" href="#S08">Mobile Application License</a></li>
-                <li><a className="btn-link" href="#S09">Submissions</a></li>
-                <li><a className="btn-link" href="#S10">Third-Party Website and Content</a></li>
-                <li><a className="btn-link" href="#S11">Advertisers</a></li>
-                <li><a className="btn-link" href="#S12">Site Management</a></li>
-                <li><a className="btn-link" href="#S13">Privacy Policy</a></li>
-                <li><a className="btn-link" href="#S14">Term and Termination</a></li>
-                <li><a className="btn-link" href="#S15">Modifications and Interruptions</a></li>
-                <li><a className="btn-link" href="#S16">Governing Law</a></li>
-                <li><a className="btn-link" href="#S17">Dispute Resolution</a></li>
-                <li><a className="btn-link" href="#S18">Corrections</a></li>
-                <li><a className="btn-link" href="#S19">Disclaimer</a></li>
-                <li><a className="btn-link" href="#S20">Limitations and Liability</a></li>
-                <li><a className="btn-link" href="#S21">Indemnification</a></li>
-                <li><a className="btn-link" href="#S22">User Data</a></li>
-                <li><a className="btn-link" href="#S23">Electronic Communications, Transactions, and Signatures</a></li>
-                <li><a className="btn-link" href="#S24">California Users and Residents</a></li>
-                <li><a className="btn-link" href="#S25">Miscellaneous</a></li>
-                <li><a className="btn-link" href="#S26">Contact Us</a></li>
-            </ul>
-            <h3>Last updated April 11, 2022</h3>
+        <ul class="container">
+          <div id="top" aria-label="Top of page" tabIndex="-1"></div>
+          <h2 class="section text-dark">* Table of Contents *</h2>
+          <li>
+            <a className="btn-link" href="#S01">
+              Agreements to Terms
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S02">
+              Intellectual Property Rights
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S03">
+              User Representations
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S04">
+              Prohibited Activities
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S05">
+              User Generated Contributions
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S06">
+              Contribution License
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S07">
+              Guidlines For Reviews
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S08">
+              Mobile Application License
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S09">
+              Submissions
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S10">
+              Third-Party Website and Content
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S11">
+              Advertisers
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S12">
+              Site Management
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S13">
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S14">
+              Term and Termination
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S15">
+              Modifications and Interruptions
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S16">
+              Governing Law
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S17">
+              Dispute Resolution
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S18">
+              Corrections
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S19">
+              Disclaimer
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S20">
+              Limitations and Liability
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S21">
+              Indemnification
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S22">
+              User Data
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S23">
+              Electronic Communications, Transactions, and Signatures
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S24">
+              California Users and Residents
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S25">
+              Miscellaneous
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S26">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+        <h3>Last updated June 24, 2025</h3>
         <div className="container">
           <ol>
             {/* 1. Agreements to Terms */}
@@ -402,8 +506,11 @@ const TermsOfUse = () => {
                 Contact Us
               </h2>
               <p className="text">
-                For any questions or concerns regarding these Terms, please
-                contact us at [Your Contact Information].
+                For any questions or concerns regarding these Terms, please{" "}
+                <Link className="btn-link2" to="/contact">
+                  contact us
+                </Link>
+                .
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
