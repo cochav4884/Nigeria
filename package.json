@@ -17,6 +17,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
     "leaflet": "^1.9.4",
     "nigeria": "file:",
     "nodemailer": "^7.0.3",

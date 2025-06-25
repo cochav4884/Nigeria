@@ -13,6 +13,9 @@ import NiteLife from "./Pages/NiteLife";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Residents from "./Pages/Residents";
 import TermsOfUse from "./Pages/TermsOfUse";
+import Corinne from "./Pages/Corinne";
+import Richie from "./Pages/Richie";
+import Amos from "./Pages/Amos";
 
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -37,6 +40,9 @@ function App() {
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/residents" element={<Residents />} />
             <Route path="/termsofuse" element={<TermsOfUse />} />
+            <Route path="/corinne" element={<Corinne />} />
+            <Route path="/richie" element= {<Richie />} />
+            <Route path="/amos" element={<Amos />} />
           </Routes>
         </main>
         <Footer />

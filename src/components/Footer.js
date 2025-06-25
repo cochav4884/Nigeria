@@ -1,6 +1,6 @@
 // src/components/Footer.js
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../Styles/Footer.css";
 import lookingOut from "../images/looking_out_bw2.jpg";
 
@@ -15,13 +15,13 @@ function Footer() {
       <div className="footer-content">
         <p className="date">&copy; {new Date().getFullYear()} | MFCP & ROC</p>
         <p className="date">
-          Creator: <NavLink to="/cp">Corinne Padilla</NavLink>
+          Creator: <Link to="/corinne">Corinne Padilla</Link>
         </p>
         <p className="date">
-          Photographer: <NavLink to="/roc">Richie Osborne</NavLink>
+          Photographer: <Link to="/richie">Richie Osborne</Link>
         </p>
         <p className="date">
-          Pastor: <NavLink to="/pastor">Amos Onogwu</NavLink>
+          Pastor: <Link to="/amos">Amos Onogwu</Link>
         </p>
         <p className="date">All rights reserved.</p>
       </div>
@@ -34,10 +34,10 @@ function Footer() {
       </button>
 
       <div className="footer-nav">
-        <NavLink to="/privacypolicy">Privacy Policy</NavLink> |{" "}
-        <NavLink to="/termsofuse">Terms of Use</NavLink> |{" "}
-        <NavLink to="/credits">Credits</NavLink> |{" "}
-        <NavLink to="/contact">Contact</NavLink>
+        <Link to="/privacypolicy">Privacy Policy</Link> |{" "}
+        <Link to="/termsofuse">Terms of Use</Link> |{" "}
+        <Link to="/credits">Credits</Link> |{" "}
+        <Link to="/contact">Contact</Link>
       </div>
 
       <div className="footer-image-container">
