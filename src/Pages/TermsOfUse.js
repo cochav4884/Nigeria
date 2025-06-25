@@ -8,7 +8,7 @@ const TermsOfUse = () => {
   };
 
   return (
-    <main className="main_container" id="top">
+    <div className="main_container" id="top">
       <div className="container-fluid">
         <header className="page-header">
           <h1 className="header">Akute, Ogun State, Nigeria</h1>
@@ -146,11 +146,16 @@ const TermsOfUse = () => {
           </li>
           <li>
             <a className="btn-link" href="#S26">
+              Content Ownership and licensing
+            </a>
+          </li>
+          <li>
+            <a className="btn-link" href="#S27">
               Contact Us
             </a>
           </li>
         </ul>
-        <h3>Last updated June 24, 2025</h3>
+        <h3>* Last updated June 24, 2025 *</h3>
         <div className="container">
           <ol>
             {/* 1. Agreements to Terms */}
@@ -159,10 +164,11 @@ const TermsOfUse = () => {
                 Agreements to Terms
               </h2>
               <p className="text">
-                By accessing and using this Site, you accept and agree to be
-                bound by these Terms of Use and all applicable laws and
-                regulations. If you do not agree with any of these terms, you
-                are prohibited from using or accessing this Site.
+                By accessing or using this website (Akute, Ogun State, Nigeria by Corinne Padilla and Richie Osborne), you agree to
+                comply with and be legally bound by these Terms of Use and all
+                applicable laws, including federal and California state laws. If
+                you do not agree to any part of these Terms, you must
+                discontinue use immediately.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -176,8 +182,25 @@ const TermsOfUse = () => {
               </h2>
               <p className="text">
                 All content on the Site, including text, graphics, logos,
-                images, and software, is our property or licensed to us and is
+                images, and software, is owned by Corinne Padilla (the site
+                creator), Richie (the photographer), or licensed to us and is
                 protected by copyright, trademark, and other laws.
+              </p>
+              <p className="text">
+                Unauthorized use, reproduction, distribution, or modification of
+                any content, including photographs taken by Richie, without
+                explicit prior written permission from Corinne Padilla and
+                Richie is strictly prohibited.
+              </p>
+              <p className="text">
+                Users are permitted to view and download content solely for
+                personal, non-commercial use. Any other use, including
+                commercial use, publication, or redistribution, requires prior
+                written consent.
+              </p>
+              <p className="text">
+                We reserve the right to take legal action against infringement
+                or unauthorized use of our intellectual property.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -190,8 +213,15 @@ const TermsOfUse = () => {
                 User Representations
               </h2>
               <p className="text">
-                You represent and warrant that your use of the Site complies
-                with these Terms and all applicable laws.
+                By using this Site, you affirm that you are at least 18 years
+                old or have the consent of a parent or guardian, and that your
+                use of the Site will comply with all applicable laws and
+                regulations.
+              </p>
+              <p className="text">
+                You agree not to use the Site for any unlawful purposes or in
+                any way that could damage, disable, or impair the Site or
+                interfere with others’ use.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -204,8 +234,26 @@ const TermsOfUse = () => {
                 Prohibited Activities
               </h2>
               <p className="text">
-                You agree not to use the Site for any unlawful or prohibited
-                activities including uploading harmful content.
+                You agree not to engage in any activities that:
+                <ul>
+                  <li>Violate any applicable law or regulation;</li>
+                  <li>Upload or transmit viruses, malware, or harmful code;</li>
+                  <li>
+                    Attempt unauthorized access to the Site or other systems;
+                  </li>
+                  <li>Harass, abuse, or harm others;</li>
+                  <li>
+                    Use the Site for commercial purposes without permission;
+                  </li>
+                  <li>
+                    Copy, reproduce, or distribute Site content except as
+                    expressly permitted;
+                  </li>
+                  <li>
+                    Use automated systems or bots to access or collect data from
+                    the Site.
+                  </li>
+                </ul>
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -218,9 +266,15 @@ const TermsOfUse = () => {
                 User Generated Contributions
               </h2>
               <p className="text">
-                By submitting content to the Site, you grant us a worldwide,
-                royalty-free, perpetual license to use, reproduce, modify, and
-                display such content.
+                If you submit content such as comments or other materials to the
+                Site, you grant Corinne Padilla and Richie a perpetual,
+                worldwide, royalty-free, sublicensable license to use,
+                reproduce, modify, adapt, publish, translate, distribute, and
+                display such content in any media.
+              </p>
+              <p className="text">
+                You represent and warrant that you own all rights to your
+                contributions or have obtained all necessary permissions.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -233,8 +287,10 @@ const TermsOfUse = () => {
                 Contribution License
               </h2>
               <p className="text">
-                You agree that your contributions are licensed to us under terms
-                that allow us to use and distribute them.
+                Contributions you submit are licensed under terms that allow us
+                to freely use, modify, and distribute your content, including
+                for commercial purposes. You waive any moral rights or claims to
+                inspect or approve the use of your contributions.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -247,8 +303,9 @@ const TermsOfUse = () => {
                 Guidlines For Reviews
               </h2>
               <p className="text">
-                Reviews should be honest, respectful, and not violate anyone’s
-                rights.
+                Reviews or feedback submitted should be truthful, respectful,
+                and not infringe on others’ rights. Content that is defamatory,
+                offensive, obscene, or discriminatory will be removed.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -261,8 +318,9 @@ const TermsOfUse = () => {
                 Mobile Application License
               </h2>
               <p className="text">
-                The license terms for mobile apps provided via the Site are
-                outlined here.
+                If you download or use any mobile applications linked to the
+                Site, your use is governed by additional license agreements and
+                terms, which you must accept before installation or use.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -275,8 +333,9 @@ const TermsOfUse = () => {
                 Submissions
               </h2>
               <p className="text">
-                Any submissions made by you may be used by us in accordance with
-                these Terms.
+                Any submissions such as ideas, feedback, or suggestions sent to
+                us become our exclusive property. You agree not to submit
+                confidential or proprietary information.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -290,7 +349,9 @@ const TermsOfUse = () => {
               </h2>
               <p className="text">
                 The Site may contain links to third-party websites. We do not
-                control and are not responsible for their content or practices.
+                control or endorse such content, and we are not responsible for
+                any damages or losses resulting from your interaction with those
+                sites.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -303,8 +364,10 @@ const TermsOfUse = () => {
                 Advertisers
               </h2>
               <p className="text">
-                Advertisers on the Site are responsible for their ads and
-                compliance with laws.
+                Advertisements displayed on the Site are solely the
+                responsibility of advertisers. We do not guarantee the accuracy
+                or legality of their ads and disclaim all liability related to
+                them.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -317,8 +380,9 @@ const TermsOfUse = () => {
                 Site Management
               </h2>
               <p className="text">
-                We reserve the right to manage, modify, or remove content and
-                users from the Site.
+                We reserve the right to monitor, restrict, suspend, or remove
+                content or users from the Site for any reason, including
+                violations of these Terms or harmful conduct.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -332,7 +396,8 @@ const TermsOfUse = () => {
               </h2>
               <p className="text">
                 Your use of the Site is also governed by our Privacy Policy,
-                which is incorporated by reference into these Terms of Use.
+                which explains how we collect, use, and protect your
+                information. Please review it carefully.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -345,8 +410,13 @@ const TermsOfUse = () => {
                 Term and Termination
               </h2>
               <p className="text">
-                We may terminate or suspend your access at any time without
-                notice for violation of these Terms or harmful conduct.
+                We may terminate or suspend your access to the Site immediately,
+                without notice, if you breach these Terms or engage in conduct
+                we deem harmful.
+              </p>
+              <p className="text">
+                Upon termination, all licenses granted to you will immediately
+                cease.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -359,8 +429,9 @@ const TermsOfUse = () => {
                 Modifications and Interruptions
               </h2>
               <p className="text">
-                We reserve the right to change, modify, or remove the contents
-                of the Site at any time or for any reason without notice...
+                We reserve the right to modify or discontinue the Site or any
+                features without prior notice. We are not liable for any loss or
+                damage resulting from such modifications or interruptions.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -373,8 +444,13 @@ const TermsOfUse = () => {
                 Governing Law
               </h2>
               <p className="text">
-                These Terms of Use and your use of the Site are governed by the
-                laws of the State of California...
+                These Terms and your use of the Site are governed by the laws of
+                the State of California and applicable U.S. federal laws,
+                without regard to conflict of law principles.
+              </p>
+              <p className="text">
+                You agree to submit to the jurisdiction of courts located in
+                California for any disputes arising under these Terms.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -388,7 +464,8 @@ const TermsOfUse = () => {
               </h2>
               <h3>Informal Negotiations</h3>
               <p className="text">
-                To expedite resolution and control the cost of any dispute...
+                Before initiating formal proceedings, parties agree to attempt
+                in good faith to resolve disputes informally.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -401,8 +478,9 @@ const TermsOfUse = () => {
                 Corrections
               </h2>
               <p className="text">
-                There may be information on the Site that contains typographical
-                errors, inaccuracies, or omissions...
+                We strive for accuracy but do not guarantee the Site will be
+                error-free. We may correct errors or omissions at any time
+                without liability.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -415,7 +493,13 @@ const TermsOfUse = () => {
                 Disclaimer
               </h2>
               <p className="text">
-                THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS...
+                The Site and all content are provided “as is” without warranties
+                of any kind, express or implied, including merchantability or
+                fitness for a particular purpose.
+              </p>
+              <p className="text">
+                We do not guarantee the Site’s availability, security, or
+                accuracy of content.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -427,7 +511,16 @@ const TermsOfUse = () => {
               <h2 className="section-title" id="S20">
                 Limitations and Liability
               </h2>
-              <p className="text">IN NO EVENT WILL WE OR OUR DIRECTORS...</p>
+              <p className="text">
+                To the fullest extent permitted by law, neither Corinne Padilla,
+                Richie, nor their affiliates shall be liable for any indirect,
+                incidental, consequential, or punitive damages arising from your
+                use of the Site.
+              </p>
+              <p className="text">
+                This limitation applies regardless of the form of action,
+                whether in contract, tort, strict liability, or otherwise.
+              </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
@@ -439,7 +532,10 @@ const TermsOfUse = () => {
                 Indemnification
               </h2>
               <p className="text">
-                You agree to defend, indemnify, and hold us harmless...
+                You agree to indemnify, defend, and hold harmless Corinne
+                Padilla, Richie, and their respective affiliates from any
+                claims, damages, liabilities, and expenses arising from your
+                violation of these Terms or your misuse of the Site.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -452,7 +548,9 @@ const TermsOfUse = () => {
                 User Data
               </h2>
               <p className="text">
-                We will maintain certain data that you transmit to the Site...
+                We collect and maintain user data as described in our Privacy
+                Policy. You are responsible for the accuracy of any information
+                you provide.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -465,8 +563,9 @@ const TermsOfUse = () => {
                 Electronic Communications, Transactions, and Signatures
               </h2>
               <p className="text">
-                Visiting the Site, sending us emails, and completing online
-                forms...
+                By using the Site, you consent to receive electronic
+                communications and agree that electronic signatures, contracts,
+                and records satisfy any legal requirements.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -479,7 +578,9 @@ const TermsOfUse = () => {
                 California Users and Residents
               </h2>
               <p className="text">
-                If any complaint with us is not satisfactorily resolved...
+                If you are a California resident, you have specific rights under
+                the California Consumer Privacy Act (CCPA). For more
+                information, please review our Privacy Policy or contact us.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -492,17 +593,52 @@ const TermsOfUse = () => {
                 Miscellaneous
               </h2>
               <p className="text">
-                These Terms of Use and any policies or operating rules posted by
-                us...
+                These Terms constitute the entire agreement between you and us
+                regarding the Site and supersede any prior agreements. If any
+                provision is found invalid, the remaining terms remain in
+                effect.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
             </li>
 
-            {/* 26. Contact Us */}
+            {/* 26. Content Ownership and Licensing */}
             <li>
               <h2 className="section-title" id="S26">
+                Content Ownership and Licensing
+              </h2>
+              <p className="text">
+                All photographs on this Site are the property of Richie Osborne
+                and are protected by copyright laws.
+              </p>
+              <p className="text">
+                Corinne Padilla holds ownership of the website’s design, code,
+                and textual content.
+              </p>
+              <p className="text">
+                Visitors agree not to copy, sell, distribute, or create
+                derivative works from any site content or photographs without
+                prior written permission from Corinne Padilla and Richie
+                Osborne.
+              </p>
+              <p className="text">
+                For permission requests or licensing inquiries, please contact
+                us via the{" "}
+                <Link className="btn-link2" to="/contact" >
+                  Contact Us
+                </Link>
+                <br />
+                page.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 27. Contact Us */}
+            <li>
+              <h2 className="section-title" id="S27">
                 Contact Us
               </h2>
               <p className="text">
@@ -519,7 +655,8 @@ const TermsOfUse = () => {
           </ol>
         </div>
       </div>
-    </main>
+      <hr />
+    </div>
   );
 };
 
