@@ -51,7 +51,15 @@ const Richie = () => {
 
         <header className="page-header text-center mb-4">Richie Osborne</header>
 
-        <div className="d-flex flex-wrap">
+        <div
+          className="row align-items-start"
+          id="richie-content"
+          style={{
+            backgroundColor: "#ffd700",
+            padding: "1rem",
+            borderRadius: "8px",
+          }}
+        >
           {/* Image on left */}
           <div className="col-md-5 mb-4">
             <img
@@ -68,123 +76,132 @@ const Richie = () => {
           </div>
 
           {/* Biography content on right */}
-          <div className="col-md-7">
-            <section>
-              <h2>Early Life</h2>
-              <p className="born">
-                I was born third out of four children to my mother Josie and father Osborn. I was
-                brought up in the West side of Africa, Nigeria from Edo state. I was a very quiet
-                young boy who preferred to hang on my own. I grew up loving spaghetti which is
-                still my favorite dish to this day. Red and black are my best colors which you
-                can see me wear a lot when I go out sightseeing. Night life is my favorite time
-                of day. I love the comradery, joy, and lights as I walk down the street.
-              </p>
-            </section>
+          <div className="col-md-7 born">
+            <article>
+              <section>
+                <h2>Early Life</h2>
+                <p className="born">
+                  I was born third out of four children to my mother Josie and
+                  father Osborn. I was brought up in the West side of Africa,
+                  Nigeria from Edo state. I was a very quiet young boy who
+                  preferred to hang on my own. I grew up loving spaghetti which
+                  is still my favorite dish to this day. Red and black are my
+                  best colors which you can see me wear a lot when I go out
+                  sightseeing. Night life is my favorite time of day. I love the
+                  comradery, joy, and lights as I walk down the street.
+                </p>
+              </section>
 
-            <section>
-              <h2>Music Passion</h2>
-              <p className="born">
-                I had a strong passion for music growing up. The lyrics, the melody, and how it
-                was put together. I love listening to music while chilling with others or by
-                myself. I started playing around with lyrics and found that I could write them
-                pretty easily. I could hear the beat...the melody in my head as I was writing
-                down the words. Along with some help with a few friends, I was able to produce a
-                few songs that I hope will gain exposure and put me out there as a singer.
-              </p>
-            </section>
+              <section>
+                <h2>Music Passion</h2>
+                <p className="born">
+                  I had a strong passion for music growing up. The lyrics, the
+                  melody, and how it was put together. I love listening to music
+                  while chilling with others or by myself. I started playing
+                  around with lyrics and found that I could write them pretty
+                  easily. I could hear the beat...the melody in my head as I was
+                  writing down the words. Along with some help with a few
+                  friends, I was able to produce a few songs that I hope will
+                  gain exposure and put me out there as a singer.
+                </p>
+              </section>
 
-            <section>
-              <h2>Spiritual Journey</h2>
-              <p className="born">
-                I love honest people. Meeting Corinne was a real experience for me. She was God
-                sent. We met on September 14, 2021 early in the morning. Before I met Corinne I
-                was really negative about everything in my life. Corinne opened me up to see
-                everything in my life in a positive way. She spoke to me about God and it was
-                surprising for me because I did not know that other people could be so spiritual.
-                We began speaking spiritually in all aspects of our lives...especially after I
-                returned to church and got to know Pastor Amos Onogwu. Together Pastor Amos
-                Onogwu and Corinne have led me in a more positive direction in my life. They guide
-                me spiritually and emotionally helping me see that there is a brighter future for
-                me and that I have a purpose through God.
-              </p>
-            </section>
+              <section>
+                <h2>Spiritual Journey</h2>
+                <p className="born">
+                  I love honest people. Meeting Corinne was a real experience
+                  for me. She was God sent. We met on September 14, 2021 early
+                  in the morning. Before I met Corinne I was really negative
+                  about everything in my life. Corinne opened me up to see
+                  everything in my life in a positive way. She spoke to me about
+                  God and it was surprising for me because I did not know that
+                  other people could be so spiritual. We began speaking
+                  spiritually in all aspects of our lives...especially after I
+                  returned to church and got to know Pastor Amos Onogwu.
+                  Together Pastor Amos Onogwu and Corinne have led me in a more
+                  positive direction in my life. They guide me spiritually and
+                  emotionally helping me see that there is a brighter future for
+                  me and that I have a purpose through God.
+                </p>
+              </section>
 
-            <section>
-              <h2>Work Experience</h2>
-              <p className="born">
-                When I was about 16 years old I was working at a factory that made bread. I was
-                a bit tired one day and when I was putting ingredients into the big mixer, I fell
-                and the mixer cut my face open. Someone at the factory tried to do first aid on
-                me and then sent me home. Thankfully my mom was a nurse at the time and she was
-                able to tend to my wound and stitch up my face. I tried working in foreign
-                exchange trading for a while. I really enjoy it and will most likely get back
-                into it once I have the time to. Foreign exchanging helped me to not be greedy
-                with money because I had to be careful and sometimes accept low wins or risk
-                losing all my money. I loved learning new ways to understand the exchange and run
-                numbers to make more money at the end of the day. Even when those extra earnings
-                were only pennies more.
-              </p>
-            </section>
+              <section>
+                <h2>Work Experience</h2>
+                <p className="born">
+                  When I was about 16 years old I was working at a factory that
+                  made bread. I was a bit tired one day and when I was putting
+                  ingredients into the big mixer, I fell and the mixer cut my
+                  face open. Someone at the factory tried to do first aid on me
+                  and then sent me home. Thankfully my mom was a nurse at the
+                  time and she was able to tend to my wound and stitch up my
+                  face. I tried working in foreign exchange trading for a while.
+                  I really enjoy it and will most likely get back into it once I
+                  have the time to. Foreign exchanging helped me to not be
+                  greedy with money because I had to be careful and sometimes
+                  accept low wins or risk losing all my money. I loved learning
+                  new ways to understand the exchange and run numbers to make
+                  more money at the end of the day. Even when those extra
+                  earnings were only pennies more.
+                </p>
+              </section>
 
-            <section>
-              <h2>Core Values</h2>
-              <p className="born">
-                My core and values are integrity, honesty and kindness. I help others when I
-                can and always am grateful when someone offers help to me. At first it was hard
-                to accept help from others, but it is what we should do for each other without
-                expecting something in return.
-              </p>
-            </section>
+              <section>
+                <h2>Core Values</h2>
+                <p className="born">
+                  My core and values are integrity, honesty and kindness. I help
+                  others when I can and always am grateful when someone offers
+                  help to me. At first it was hard to accept help from others,
+                  but it is what we should do for each other without expecting
+                  something in return.
+                </p>
+              </section>
+              <section className="section-richie mt-4">
+                <h2>Music by: TRIPP</h2>
+                <ol>
+                  <p>Song Title</p>
+                  <li>
+                    <a
+                      href="assets/TRIPP- FLIP SIDE (PROD BY SOL DRE).mp3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="button button1">FLIP SIDE</button>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="assets/Tripp Freestyle 1 mastered.mp3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="button button1">FREESTYLE</button>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="assets/Go German Tripp Mastered.mp3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="button button1">GO GERMAN</button>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="assets/Bad Chick - Tripp ft. Sol Dre.mp3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="button button1">BAD CHICK</button>
+                    </a>
+                  </li>
+                </ol>
+              </section>
 
-            <br />
-            <br />
-
-            <p className="text-center fs-1">*Last Update 05/11/2022*</p>
+              <p className="text-center fs-1 mt-4">*Last Update June 25, 2025*</p>
+            </article>
           </div>
         </div>
-
-        <section className="section-richie mt-4">
-          <h2>Music by: TRIPP</h2>
-          <ol>
-            <p>Song Title</p>
-            <li>
-              <a
-                href="assets/TRIPP- FLIP SIDE (PROD BY SOL DRE).mp3"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="button button1">FLIP SIDE</button>
-              </a>
-            </li>
-            <li>
-              <a
-                href="assets/Tripp Freestyle 1 mastered.mp3"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="button button1">FREESTYLE</button>
-              </a>
-            </li>
-            <li>
-              <a
-                href="assets/Go German Tripp Mastered.mp3"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="button button1">GO GERMAN</button>
-              </a>
-            </li>
-            <li>
-              <a
-                href="assets/Bad Chick - Tripp ft. Sol Dre.mp3"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="button button1">BAD CHICK</button>
-              </a>
-            </li>
-          </ol>
-        </section>
       </div>
     </div>
   );

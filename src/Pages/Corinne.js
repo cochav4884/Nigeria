@@ -57,7 +57,10 @@ const Corinne = () => {
         <div
           className="row align-items-start"
           id="corinne-content"
-          style={{ backgroundColor: "#ffd700", padding: "1rem", borderRadius: "8px" }}
+          style={{ 
+            backgroundColor: "#ffd700", 
+            padding: "1rem", 
+            borderRadius: "8px" }}
         >
           {/* Image on left */}
           <div className="col-md-5 mb-4">
@@ -65,12 +68,16 @@ const Corinne = () => {
               src={corinne}
               alt="Portrait of Corinne Padilla"
               className="page-image img-fluid"
-              style={{ maxWidth: "100%", height: "auto", borderRadius: "8px", boxShadow: "0 4px 6px #000" }}
+              style={{ 
+                maxWidth: "100%", 
+                height: "auto", 
+                borderRadius: "8px", 
+                boxShadow: "0 4px 6px #000" }}
             />
           </div>
 
           {/* Biography content on right */}
-          <div className="col-md-7">
+          <div className="col-md-7 born">
             <article>
               <section>
                 <h2>Childhood</h2>
@@ -162,7 +169,7 @@ const Corinne = () => {
                 </p>
               </section>
 
-              <p className="text-center fs-1 mt-4">*Last Update 05/07/2022*</p>
+              <p className="text-center fs-1 mt-4">*Last Update June 25, 2025*</p>
             </article>
           </div>
         </div>
