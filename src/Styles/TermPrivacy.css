@@ -1,43 +1,10 @@
-/* Container to push footer to bottom */
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: rgb(37, 15, 37);
-  color: white;
-  padding: 2rem 1rem;
-  box-sizing: border-box;
-}
-
-.content-wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  flex-grow: 1;
-}
-
-.header {
-  font-size: clamp(2rem, 5vw, 48px);
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  color: white;
-  text-transform: uppercase;
-}
-
-section {
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-  font-size: 1rem;
-  color: rgb(255, 255, 255);
-}
-
 /* Optional: Link styles inside text */
-section a {
+.section-title a {
   color: rgb(128, 128, 128);
   text-decoration: underline;
 }
 
-section a:hover {
+.section-title a:hover {
   color: white;
 }
 
@@ -81,23 +48,25 @@ section a:hover {
   color: #444;
 }
 
-.back-to-top-container {
-  margin-top: 10px;
-  text-align: right;
-}
-
-.back-to-top-link {
-  background: none;
+.btn-link {
+  display: inline-block; /* allow vertical margin */
+  margin-bottom: 12px;   /* space below each button */
+  background: #ffffff;
   border: none;
-  color: #005ea2;
+  color: #000000;
   cursor: pointer;
   font-weight: 600;
-  padding: 0;
+  padding: 4px 8px;
   font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
 }
 
-.back-to-top-link:hover {
+.btn-link:hover {
   text-decoration: underline;
+   background-color: rgb(34, 139, 34); /* forrest green */
+   color: #ffffff; /* white text */
+   transition: background-color 0.3s ease;
 }
 
 

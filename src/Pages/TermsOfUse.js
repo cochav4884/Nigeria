@@ -7,230 +7,413 @@ const TermsOfUse = () => {
   };
 
   return (
-    <main className="page-container" id="top">
-      <div className="content-wrapper">
-        <h1 className="header">Terms of Use</h1>
-        <ol>
-          {/* Corrections */}
-          <li>
-            <h2 className="sub-header">Corrections</h2>
-            <p className="text">
-              There may be information on the Site that contains typographical
-              errors, inaccuracies, or omissions, including descriptions, pricing,
-              availability, and various other information. We reserve the right to
-              correct any errors, inaccuracies, or omissions and to change or
-              update the information on the Site at any time, without prior
-              notice.
-            </p>
-            <div className="back-to-top-container">
-              <button className="back-to-top-link" onClick={scrollToTop}>
+    <main className="main_container" id="top">
+      <div className="container-fluid">
+        <header className="page-header">
+          <h1 className="header">Akute, Ogun State, Nigeria</h1>
+        </header>
+
+        <h2 className="section">* Term of Use *</h2>
+
+             <ul class="container">
+                
+                <div id="top" aria-label="Top of page" tabIndex="-1"></div>
+                <h2 class="section text-dark">* Table of Contents *</h2>
+                <li><a className="btn-link" href="#S01">Agreements to Terms</a></li>
+                <li><a className="btn-link" href="#S02">Intellectual Property Rights</a></li>
+                <li><a className="btn-link" href="#S03">User Representations</a></li>
+                <li><a className="btn-link" href="#S04">Prohibited Activities</a></li>
+                <li><a className="btn-link" href="#S05">User Generated Contributions</a></li>
+                <li><a className="btn-link" href="#S06">Contribution License</a></li>
+                <li><a className="btn-link" href="#S07">Guidlines For Reviews</a></li>
+                <li><a className="btn-link" href="#S08">Mobile Application License</a></li>
+                <li><a className="btn-link" href="#S09">Submissions</a></li>
+                <li><a className="btn-link" href="#S10">Third-Party Website and Content</a></li>
+                <li><a className="btn-link" href="#S11">Advertisers</a></li>
+                <li><a className="btn-link" href="#S12">Site Management</a></li>
+                <li><a className="btn-link" href="#S13">Privacy Policy</a></li>
+                <li><a className="btn-link" href="#S14">Term and Termination</a></li>
+                <li><a className="btn-link" href="#S15">Modifications and Interruptions</a></li>
+                <li><a className="btn-link" href="#S16">Governing Law</a></li>
+                <li><a className="btn-link" href="#S17">Dispute Resolution</a></li>
+                <li><a className="btn-link" href="#S18">Corrections</a></li>
+                <li><a className="btn-link" href="#S19">Disclaimer</a></li>
+                <li><a className="btn-link" href="#S20">Limitations and Liability</a></li>
+                <li><a className="btn-link" href="#S21">Indemnification</a></li>
+                <li><a className="btn-link" href="#S22">User Data</a></li>
+                <li><a className="btn-link" href="#S23">Electronic Communications, Transactions, and Signatures</a></li>
+                <li><a className="btn-link" href="#S24">California Users and Residents</a></li>
+                <li><a className="btn-link" href="#S25">Miscellaneous</a></li>
+                <li><a className="btn-link" href="#S26">Contact Us</a></li>
+            </ul>
+            <h3>Last updated April 11, 2022</h3>
+        <div className="container">
+          <ol>
+            {/* 1. Agreements to Terms */}
+            <li>
+              <h2 className="section-title" id="S01">
+                Agreements to Terms
+              </h2>
+              <p className="text">
+                By accessing and using this Site, you accept and agree to be
+                bound by these Terms of Use and all applicable laws and
+                regulations. If you do not agree with any of these terms, you
+                are prohibited from using or accessing this Site.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
-            </div>
-          </li>
+            </li>
 
-          {/* Disclaimer */}
-          <li>
-            <h2 className="sub-header">Disclaimer</h2>
-            <p className="text">
-              THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE
-              THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE
-              RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL
-              WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SITE AND YOUR
-              USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES
-              OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
-              NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE
-              ACCURACY OR COMPLETENESS OF THE SITE'S CONTENT OR THE CONTENT OF ANY
-              WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO LIABILITY OR
-              RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF
-              CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF
-              ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE
-              SITE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS
-              AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION
-              STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO
-              OR FROM THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE
-              WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY,
-              AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR
-              FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE
-              OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA
-              THE SITE. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME
-              RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A
-              THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY
-              WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER
-              ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE
-              RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY
-              THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE
-              OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT,
-              YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE
-              APPROPRIATE.
-            </p>
-            <div className="back-to-top-container">
-              <button className="back-to-top-link" onClick={scrollToTop}>
+            {/* 2. Intellectual Property Rights */}
+            <li>
+              <h2 className="section-title" id="S02">
+                Intellectual Property Rights
+              </h2>
+              <p className="text">
+                All content on the Site, including text, graphics, logos,
+                images, and software, is our property or licensed to us and is
+                protected by copyright, trademark, and other laws.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
-            </div>
-          </li>
+            </li>
 
-          {/* Limitations of Liability */}
-          <li>
-            <h2 className="sub-header">Limitations of Liability</h2>
-            <p className="text">
-              IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
-              TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
-              EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST
-              PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM
-              YOUR USE OF THE SITE, EVEN IF WE HAVE BEEN ADVISED OF THE
-              POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE
-              CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE
-              WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL
-              TIMES BE LIMITED TO THE LESSER OF THE AMOUNT PAID, IF ANY, BY YOU TO
-              US DURING THE SIX (6) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION
-              ARISING OR $1,500.00 USD. CERTAIN US STATE LAWS AND INTERNATIONAL
-              LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION
-              OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME
-              OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU,
-              AND YOU MAY HAVE ADDITIONAL RIGHTS.
-            </p>
-            <div className="back-to-top-container">
-              <button className="back-to-top-link" onClick={scrollToTop}>
+            {/* 3. User Representations */}
+            <li>
+              <h2 className="section-title" id="S03">
+                User Representations
+              </h2>
+              <p className="text">
+                You represent and warrant that your use of the Site complies
+                with these Terms and all applicable laws.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
-            </div>
-          </li>
+            </li>
 
-          {/* Indemnification */}
-          <li>
-            <h2 className="sub-header">Indemnification</h2>
-            <p className="text">
-              You agree to defend, indemnify, and hold us harmless, including our
-              subsidiaries, affiliates, and all of our respective officers,
-              agents, partners, and employees, from and against any loss, damage,
-              liability, claim, or demand, including reasonable attorneys' fees
-              and expenses, made by any third party due to or arising out of: (1)
-              use of the Site; (2) breach of these Terms of Use; (3) any breach of
-              your representations and warranties set forth in these Terms of Use;
-              (4) your violation of the rights of a third party, including but not
-              limited to intellectual property rights; or (5) any overt harmful
-              act toward any other user of the Site with whom you connected via
-              the Site. Notwithstanding the foregoing, we reserve the right, at
-              your expense, to assume the exclusive defense and control of any
-              matter for which you are required to indemnify us, and you agree to
-              cooperate, at your expense, with our defense of such claims. We will
-              use reasonable efforts to notify you of any such claim, action, or
-              proceeding which is subject to this indemnification upon becoming
-              aware of it.
-            </p>
-            <div className="back-to-top-container">
-              <button className="back-to-top-link" onClick={scrollToTop}>
+            {/* 4. Prohibited Activities */}
+            <li>
+              <h2 className="section-title" id="S04">
+                Prohibited Activities
+              </h2>
+              <p className="text">
+                You agree not to use the Site for any unlawful or prohibited
+                activities including uploading harmful content.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
-            </div>
-          </li>
+            </li>
 
-          {/* User Data */}
-          <li>
-            <h2 className="sub-header">User Data</h2>
-            <p className="text">
-              We will maintain certain data that you transmit to the Site for the
-              purpose of managing the performance of the Site, as well as data
-              relating to your use of the Site. Although we perform regular
-              routine backups of data, you are solely responsible for all data
-              that you transmit or that relates to any activity you have
-              undertaken using the Site. You agree that we shall have no liability
-              to you for any loss or corruption of any such data, and you hereby
-              waive any right of action against us arising from any such loss or
-              corruption of such data.
-            </p>
-            <div className="back-to-top-container">
-              <button className="back-to-top-link" onClick={scrollToTop}>
+            {/* 5. User Generated Contributions */}
+            <li>
+              <h2 className="section-title" id="S05">
+                User Generated Contributions
+              </h2>
+              <p className="text">
+                By submitting content to the Site, you grant us a worldwide,
+                royalty-free, perpetual license to use, reproduce, modify, and
+                display such content.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
-            </div>
-          </li>
+            </li>
 
-          {/* Electronic Communications */}
-          <li>
-            <h2 className="sub-header">
-              Electronic Communications, Transactions, and Signatures
-            </h2>
-            <p className="text">
-              Visiting the Site, sending us emails, and completing online forms
-              constitute electronic communications. You consent to receive
-              electronic communications, and you agree that all agreements,
-              notices, disclosures, and other communications we provide to you
-              electronically, via email and on the Site, satisfy any legal
-              requirement that such communication be in writing. YOU HEREBY AGREE
-              TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER
-              RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND
-              RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE
-              SITE. You hereby waive any rights or requirements under any
-              statutes, regulations, rules, ordinances, or other laws in any
-              jurisdiction which require an original signature or delivery or
-              retention of non-electronic records, or to payments or the granting
-              of credits by any means other than electronic means.
-            </p>
-            <div className="back-to-top-container">
-              <button className="back-to-top-link" onClick={scrollToTop}>
+            {/* 6. Contribution License */}
+            <li>
+              <h2 className="section-title" id="S06">
+                Contribution License
+              </h2>
+              <p className="text">
+                You agree that your contributions are licensed to us under terms
+                that allow us to use and distribute them.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
-            </div>
-          </li>
+            </li>
 
-          {/* California Users */}
-          <li>
-            <h2 className="sub-header">California Users and Residents</h2>
-            <p className="text">
-              If any complaint with us is not satisfactorily resolved, you can
-              contact the Complaint Assistance Unit of the Division of Consumer
-              Services of the California Department of Consumer Affairs in writing
-              at 1625 North Market Blvd., Suite N 112, Sacramento, California
-              95834 or by telephone at (800) 952-5210 or (916) 445-1254.
-            </p>
-            <div className="back-to-top-container">
-              <button className="back-to-top-link" onClick={scrollToTop}>
+            {/* 7. Guidlines For Reviews */}
+            <li>
+              <h2 className="section-title" id="S07">
+                Guidlines For Reviews
+              </h2>
+              <p className="text">
+                Reviews should be honest, respectful, and not violate anyone’s
+                rights.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
-            </div>
-          </li>
+            </li>
 
-          {/* Miscellaneous */}
-          <li>
-            <h2 className="sub-header">Miscellaneous</h2>
-            <p className="text">
-              These Terms of Use and any policies or operating rules posted by us
-              on the Site or in respect to the Site constitute the entire
-              agreement and understanding between you and us. Our failure to
-              exercise or enforce any right or provision of these Terms of Use
-              shall not operate as a waiver of such right or provision. These
-              Terms of Use operate to the fullest extent permissible by law. We
-              may assign any or all of our rights and obligations to others at any
-              time. We shall not be responsible or liable for any loss, damage,
-              delay, or failure to act caused by any cause beyond our reasonable
-              control. If any provision or part of a provision of these Terms of
-              Use is determined to be unlawful, void, or unenforceable, that
-              provision or part of the provision is deemed severable from these
-              Terms of Use and does not affect the validity and enforceability of
-              any remaining provisions. There is no joint venture, partnership,
-              employment or agency relationship created between you and us as a
-              result of these Terms of Use or use of the Site. You agree that these
-Terms of Use will be governed by the laws of the State of
-California, without regard to its conflict of law provisions. You
-hereby consent to the exclusive jurisdiction and venue of courts in
-Sacramento, California, in all disputes arising out of or relating to
-the use of the Site. Use of the Site is unauthorized in any
-jurisdiction that does not give effect to all provisions of these
-Terms of Use, including without limitation this paragraph.
-</p>
-<div className="back-to-top-container">
-<button className="back-to-top-link" onClick={scrollToTop}>
-Back to Top
-</button>
-</div>
-</li>
-</ol>
-</div>
-</main>
-);
+            {/* 8. Mobile Application License */}
+            <li>
+              <h2 className="section-title" id="S08">
+                Mobile Application License
+              </h2>
+              <p className="text">
+                The license terms for mobile apps provided via the Site are
+                outlined here.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 9. Submissions */}
+            <li>
+              <h2 className="section-title" id="S09">
+                Submissions
+              </h2>
+              <p className="text">
+                Any submissions made by you may be used by us in accordance with
+                these Terms.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 10. Third-Party Website and Content */}
+            <li>
+              <h2 className="section-title" id="S10">
+                Third-Party Website and Content
+              </h2>
+              <p className="text">
+                The Site may contain links to third-party websites. We do not
+                control and are not responsible for their content or practices.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 11. Advertisers */}
+            <li>
+              <h2 className="section-title" id="S11">
+                Advertisers
+              </h2>
+              <p className="text">
+                Advertisers on the Site are responsible for their ads and
+                compliance with laws.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 12. Site Management */}
+            <li>
+              <h2 className="section-title" id="S12">
+                Site Management
+              </h2>
+              <p className="text">
+                We reserve the right to manage, modify, or remove content and
+                users from the Site.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 13. Privacy Policy */}
+            <li>
+              <h2 className="section-title" id="S13">
+                Privacy Policy
+              </h2>
+              <p className="text">
+                Your use of the Site is also governed by our Privacy Policy,
+                which is incorporated by reference into these Terms of Use.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 14. Term and Termination */}
+            <li>
+              <h2 className="section-title" id="S14">
+                Term and Termination
+              </h2>
+              <p className="text">
+                We may terminate or suspend your access at any time without
+                notice for violation of these Terms or harmful conduct.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 15. Modifications and Interruptions */}
+            <li>
+              <h2 className="section-title" id="S15">
+                Modifications and Interruptions
+              </h2>
+              <p className="text">
+                We reserve the right to change, modify, or remove the contents
+                of the Site at any time or for any reason without notice...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 16. Governing Law */}
+            <li>
+              <h2 className="section-title" id="S16">
+                Governing Law
+              </h2>
+              <p className="text">
+                These Terms of Use and your use of the Site are governed by the
+                laws of the State of California...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 17. Dispute Resolution */}
+            <li>
+              <h2 className="section-title" id="S17">
+                Dispute Resolution
+              </h2>
+              <h3>Informal Negotiations</h3>
+              <p className="text">
+                To expedite resolution and control the cost of any dispute...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 18. Corrections */}
+            <li>
+              <h2 className="section-title" id="S18">
+                Corrections
+              </h2>
+              <p className="text">
+                There may be information on the Site that contains typographical
+                errors, inaccuracies, or omissions...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 19. Disclaimer */}
+            <li>
+              <h2 className="section-title" id="S19">
+                Disclaimer
+              </h2>
+              <p className="text">
+                THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 20. Limitations and Liability */}
+            <li>
+              <h2 className="section-title" id="S20">
+                Limitations and Liability
+              </h2>
+              <p className="text">IN NO EVENT WILL WE OR OUR DIRECTORS...</p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 21. Indemnification */}
+            <li>
+              <h2 className="section-title" id="S21">
+                Indemnification
+              </h2>
+              <p className="text">
+                You agree to defend, indemnify, and hold us harmless...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 22. User Data */}
+            <li>
+              <h2 className="section-title" id="S22">
+                User Data
+              </h2>
+              <p className="text">
+                We will maintain certain data that you transmit to the Site...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 23. Electronic Communications, Transactions, and Signatures */}
+            <li>
+              <h2 className="section-title" id="S23">
+                Electronic Communications, Transactions, and Signatures
+              </h2>
+              <p className="text">
+                Visiting the Site, sending us emails, and completing online
+                forms...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 24. California Users and Residents */}
+            <li>
+              <h2 className="section-title" id="S24">
+                California Users and Residents
+              </h2>
+              <p className="text">
+                If any complaint with us is not satisfactorily resolved...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 25. Miscellaneous */}
+            <li>
+              <h2 className="section-title" id="S25">
+                Miscellaneous
+              </h2>
+              <p className="text">
+                These Terms of Use and any policies or operating rules posted by
+                us...
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 26. Contact Us */}
+            <li>
+              <h2 className="section-title" id="S26">
+                Contact Us
+              </h2>
+              <p className="text">
+                For any questions or concerns regarding these Terms, please
+                contact us at [Your Contact Information].
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </main>
+  );
 };
 
 export default TermsOfUse;
