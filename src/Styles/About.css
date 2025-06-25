@@ -27,19 +27,3 @@ hr {
   object-fit: cover;
   width: 100%;
 }
-
-.custom-btn {
-  margin-top: 0.5rem;
-  background-color: rgb(34, 139, 34); /* forrest green */
-  color: #ffffff;               /* white text */
-  border: none;
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.custom-btn:hover {
-  background-color: #ffd700; /* gold */
-  color: #000000; /* black text */
-}

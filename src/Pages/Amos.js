@@ -49,8 +49,8 @@ const Amos = () => {
           </button>
         </div>
 
-        <header className="page-header text-center mb-4">
-          Pastor Amos Onogwu
+        <header>
+          <h1 className="page-header">Pastor Amos Onogwu</h1>
         </header>
 
         <div

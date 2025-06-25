@@ -29,8 +29,8 @@ function About() {
   return (
     <div className="main_container">
       <div className="container-fluid">
-        <header className="page-header">
-          <h1>Akute, Ogun State, Nigeria</h1>
+        <header>
+          <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
         </header>
         <h2 className="section">* Learn More About Akute! *</h2>
         <hr />
@@ -64,7 +64,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="custom-btn" type="button">
+                <button className="btn-link2" type="button">
                   Click Me
                 </button>
               </a>
@@ -94,7 +94,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="custom-btn" type="button">
+                <button className="btn-link2" type="button">
                   Click Me
                 </button>
               </a>
@@ -124,7 +124,7 @@ function About() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="custom-btn" type="button">
+                <button className="btn-link2" type="button">
                   Click Me
                 </button>
               </a>

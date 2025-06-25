@@ -9,8 +9,8 @@ const LocalTalent = () => {
   return (
     <div className="main_container">
       <div className="container-fluid">
-        <header className="page-header">
-          <h1>Akute, Ogun State, Nigeria</h1>
+        <header>
+          <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
         </header>
 
         <h2 className="section">* Meet Akute's Local Talent! *</h2>

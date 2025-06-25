@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div className="main_container">
       <div className="container-fluid">
-        <header className="page-header">
-          <h1>Akute, Ogun State, Nigeria</h1>
+        <header>
+          <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
         </header>
         <h2 className="section">
           * Photographs of Akute By Resident: Richie Osborne! *

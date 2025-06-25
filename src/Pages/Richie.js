@@ -157,11 +157,11 @@ const Richie = () => {
               </section>
               <section className="section-richie">
                 <header>
-                  <h1>Music by: TRIPP</h1>
+                  <h1 className="page-header">Music by: TRIPP</h1>
                 </header>
                 <hr />
                 
-                <h2 className="section text-dark">Song List:</h2>
+                <h2 className="section">* Song List: *</h2>
                 <ol>
                   <li>
                     <a

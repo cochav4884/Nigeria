@@ -81,12 +81,9 @@ p {
 
 .btn-link:hover {
   text-decoration: underline;
-  background-color: #ffd700; /* gold */
-  color: #000000; /* black text */
-  transition: background-color 0.3s ease;
-  text-decoration: underline;
-  background-color: rgb(34, 139, 34); /* forrest green */
+  background-color: #228b22; /* forest green */
   color: #ffffff; /* white text */
+  text-decoration: underline;
   transition: background-color 0.3s ease;
   border-radius: 0.5rem;
 }
@@ -98,22 +95,25 @@ p {
 }
 
 .btn-link2:hover {
-  color: #ffffff; /* white text */
   background-color: #228b22; /* forest green */
+  color: #ffffff;
   transition: background-color 0.3s ease;
   text-decoration: none;
 }
 
 .btn-link3 {
-  background-color: #228b22; /* forest green */
+  background-color: #000000; /* black */
   color: #ffffff; /* white text */
-  text-decoration: underline;
   border-radius: 0.5rem;
-} 
+  text-decoration: underline;
+  padding: 6px 12px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
 .btn-link3:hover { 
-  background-color: #000000; /* black */
-  color: #ffd700; /* gold text */
-  transition: background-color 0.3s ease;
-  text-decoration: none;
+  background-color: #ffd700; /* gold */
+  color: #000000; /* black text */
+  text-decoration: none
 }

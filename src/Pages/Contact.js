@@ -62,8 +62,8 @@ function Contact() {
     <div className="main_container">
       <div className="container-fluid">
         <div className="page">
-          <header className="page-header">
-            <h1>Contact Us</h1>
+          <header>
+            <h1 className="page-header">Contact Us</h1>
           </header>
           <h2 className="section">
             * We would love to hear from you! Please fill out the form below. *
