@@ -6,6 +6,18 @@ h3 {
   text-align: center;
 }
 
+/* ul & ol */
+ul, ol, li {
+  margin-left: 20px; /* Indent lists */
+  color: #000000; /* black text */
+  text-align: left; /* Align text to the left */
+}
+
+/* <p> texts for TermOfUse.js & PrivacyPolicy.js */
+.text {
+  text-align: left; /* Align text to the left */
+}
+
 /* Optional: Link styles inside text */
 .section-title a {
   color: rgb(128, 128, 128);
@@ -30,13 +42,7 @@ h3 {
   border-radius: 0.5rem;
 }
 
-.btn-link2 {
-  color: #000000; /* black text */
-  text-decoration: none;
-}
-
-.btn-link:hover,
-.btn-link2:hover {
+.btn-link:hover {
   text-decoration: underline;
   background-color: #ffd700; /* gold */
   color: #000000; /* black text */
@@ -46,6 +52,18 @@ h3 {
   color: #ffffff; /* white text */
   transition: background-color 0.3s ease;
   border-radius: 0.5rem;
+}
+
+.btn-link2 {
+  color: #000000; /* black text */
+  text-decoration: underline;
+}
+
+.btn-link2:hover {
+  color: #ffffff; /* white text */
+  background-color: #228b22; /* forest green */
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 /* Footer already in App.js, no need to repeat */

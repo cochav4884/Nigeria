@@ -14,7 +14,7 @@ const TermsOfUse = () => {
           <h1 className="header">Akute, Ogun State, Nigeria</h1>
         </header>
 
-        <h2 className="section">* Term of Use *</h2>
+        <h2 className="section">* Terms of Use *</h2>
 
         <ul class="container">
           <div id="top" aria-label="Top of page" tabIndex="-1"></div>

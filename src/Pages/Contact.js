@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "../Styles/Contact.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
+    doNotSell: false, // new field
   });
 
   const [status, setStatus] = useState("");
@@ -73,6 +75,32 @@ function Contact() {
                 value={formData.message}
                 required
               />
+              <div className="checkbox-container">
+                <label className="checkbox-label" htmlFor="doNotSell">
+                  <input
+                    id="doNotSell"
+                    type="checkbox"
+                    name="doNotSell"
+                    checked={formData.doNotSell || false}
+                    onChange={(e) =>
+                      setFormData((prev) => ({
+                        ...prev,
+                        doNotSell: e.target.checked,
+                      }))
+                    }
+                  />
+                  &nbsp;I am a California resident and I wish to opt out of the
+                  sale or sharing of my personal information.
+                </label>
+                <p className="opt-out-note">
+                  Please see "Do Not Sell My Personal Information" in our {" "}
+                  <Link className="privacy-inline-link" to="/PrivacyPolicy">
+                    Privacy Policy
+                  </Link>
+                  .
+                </p>
+              </div>
+
               <button className="custom-button" type="submit">
                 Send
               </button>

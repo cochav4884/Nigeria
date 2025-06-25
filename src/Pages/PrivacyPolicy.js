@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
           <h1 className="header">Akute, Ogun State, Nigeria</h1>
         </header>
         <h2 className="section">*Privacy Policy*</h2>
-<hr />
+        <hr />
         <ul className="container">
           <div id="top" aria-label="Top of Page" tabIndex="-1"></div>
           <h2 className="section text-dark">* Table of Contents *</h2>
@@ -60,11 +60,17 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             <a className="btn-link" href="#S09">
-              Updates to this Policy
+              Do Not Sell My Personal Information
             </a>
           </li>
           <li>
             <a className="btn-link" href="#S10">
+              Updates to this Policy
+            </a>
+          </li>
+
+          <li>
+            <a className="btn-link" href="#S11">
               Contact Us
             </a>
           </li>
@@ -77,7 +83,7 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S01">
                 Privacy Policy
               </h2>
-              <p>
+              <p className="text">
                 This privacy policy describes how we handle personal information
                 collected through this website. By using this site, you agree to
                 the collection and use of information in accordance with this
@@ -93,7 +99,9 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S02">
                 Coverage
               </h2>
-              <p>This privacy policy applies to the full site listed above.</p>
+              <p className="text">
+                This privacy policy applies to the full site listed above.
+              </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
@@ -104,7 +112,7 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S03">
                 Definitions of Types of Information
               </h2>
-              <p>
+              <p className="text">
                 The site collects some information automatically upon your
                 visit, like IP addresses and browser type, for analytics. It may
                 also collect voluntarily submitted data such as names and email
@@ -120,7 +128,7 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S04">
                 Use of Information
               </h2>
-              <p>
+              <p className="text">
                 Any collected data is used strictly to improve website
                 performance, personalize content, and respond to user inquiries.
                 Data is not sold or shared with third parties without consent
@@ -136,7 +144,7 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S05">
                 Cookies
               </h2>
-              <p>
+              <p className="text">
                 Cookies may be used to remember user preferences and enable
                 functionality. You can disable cookies in your browser settings.
               </p>
@@ -150,7 +158,7 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S06">
                 Data Security
               </h2>
-              <p>
+              <p className="text">
                 We use reasonable technical and organizational measures to
                 protect your data. However, no online service is 100% secure.
               </p>
@@ -164,7 +172,7 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S07">
                 Third-Party Links
               </h2>
-              <p>
+              <p className="text">
                 Our site may contain links to external websites. We are not
                 responsible for their privacy practices or content.
               </p>
@@ -178,7 +186,7 @@ const PrivacyPolicy = () => {
               <h2 className="section-title" id="S08">
                 Children's Privacy
               </h2>
-              <p>
+              <p className="text">
                 This website is not intended for children under 13. We do not
                 knowingly collect personal data from minors.
               </p>
@@ -187,12 +195,39 @@ const PrivacyPolicy = () => {
               </button>
             </li>
 
-            {/* 9. Updates to this Policy Section */}
+            {/* 9. Do Not Sell My Personal Information Section */}
             <li>
               <h2 className="section-title" id="S09">
+                Do Not Sell My Personal Information
+              </h2>
+              <p className="text">
+                Under the California Consumer Privacy Act (CCPA) and California
+                Privacy Rights Act (CPRA), California residents have the right
+                to opt-out of the sale or sharing of their personal information.
+                Although this website does not sell personal information in
+                exchange for money, we may share information with service
+                providers to improve functionality.
+              </p>
+              <p className="text">
+                If you are a California resident and would like to exercise your
+                right to opt-out, please{" "}
+                <Link className="btn-link2" to="/Contact">
+                  contact us
+                </Link>{" "}
+                and include "Do Not Sell My Info" in your message subject or
+                body.
+              </p>
+              <button className="btn-link" onClick={scrollToTop}>
+                Back to Top
+              </button>
+            </li>
+
+            {/* 10. Updates to this Policy Section */}
+            <li>
+              <h2 className="section-title" id="S10">
                 Updates to this Policy
               </h2>
-              <p>
+              <p className="text">
                 We may update this policy periodically. Changes will be posted
                 on this page with a new effective date.
               </p>
@@ -201,12 +236,12 @@ const PrivacyPolicy = () => {
               </button>
             </li>
 
-            {/* 10. Contact Us Section */}
+            {/* 11. Contact Us Section */}
             <li>
-              <h2 className="section-title" id="S10">
+              <h2 className="section-title" id="S11">
                 Contact Us
               </h2>
-              <p>
+              <p className="text">
                 If you have any questions about this privacy policy, please{" "}
                 <Link className="btn-link2" to="/Contact">
                   contact us
