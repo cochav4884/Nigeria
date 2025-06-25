@@ -66,6 +66,7 @@ const PrivacyPolicy = () => {
         </ul>
         <h3>* Last updated June 24, 2025 *</h3>
         <div className="container">
+          {/* Change domain url when you have it */}
           <p>
             Welcome to our website at{" "}
             <a
@@ -95,13 +96,16 @@ const PrivacyPolicy = () => {
               </button>
             </li>
 
-            {/* 2. Coverage Section */}
+            {/* 2. Coverage Section */} {/* Change domain url when you have it */}
             <li>
               <h2 className="section-title" id="S02">
                 Coverage
               </h2>
               <p className="text">
-                This privacy policy applies to all pages and content on{" "}
+                This privacy policy applies to all pages, features, and content
+                of this website, regardless of the domain or platform used to
+                access it. (This privacy policy applies to all pages and content
+                on{" "}
                 <a
                   href="https://cochav4884.github.io/cochav4884github.io/"
                   target="_blank"
@@ -109,7 +113,7 @@ const PrivacyPolicy = () => {
                 >
                   https://cochav4884.github.io/cochav4884github.io/
                 </a>
-                .
+                .)
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -240,11 +244,11 @@ const PrivacyPolicy = () => {
               </p>
               <p className="text">
                 We welcome feedback to improve accessibility; please contact us
-                at{" "}
-                <a href="mailto:corinnepadilla04@gmail.com">
-                  corinnepadilla04@gmail.com
-                </a>{" "}
-                or by phone at 000-000-0000.
+                through our{" "}
+                <Link className="privacy-inline-link" to="/Contact">
+                  contact us
+                </Link>{" "}
+                page.
               </p>
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
@@ -320,9 +324,9 @@ const PrivacyPolicy = () => {
               </p>
               <p className="text">
                 For permissions or licensing inquiries, please contact us via
-                the {" "} 
+                the{" "}
                 <Link className="btn-link2" to="/contact">
-                contact us
+                  contact us
                 </Link>
                 <br />
                 page.

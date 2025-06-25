@@ -7,18 +7,29 @@ function Contact() {
     name: "",
     email: "",
     message: "",
-    doNotSell: false, // new field
+    doNotSell: false,
+    acceptedTermsAndPrivacy: false,  // single checkbox state
   });
 
   const [status, setStatus] = useState("");
 
+  // Generalized handleChange for text inputs and checkbox
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    const { name, type, checked, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validate single checkbox acceptance
+    if (!formData.acceptedTermsAndPrivacy) {
+      setStatus("Please accept the terms and privacy policy to proceed.");
+      return;
+    }
 
     try {
       const response = await fetch("http://localhost:5000/send", {
@@ -31,7 +42,13 @@ function Contact() {
 
       if (response.ok) {
         setStatus("Message sent successfully!");
-        setFormData({ name: "", email: "", message: "" }); // reset form
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+          doNotSell: false,
+          acceptedTermsAndPrivacy: false,
+        });
       } else {
         setStatus("Failed to send message. Please try again.");
       }
@@ -81,24 +98,39 @@ function Contact() {
                     id="doNotSell"
                     type="checkbox"
                     name="doNotSell"
-                    checked={formData.doNotSell || false}
-                    onChange={(e) =>
-                      setFormData((prev) => ({
-                        ...prev,
-                        doNotSell: e.target.checked,
-                      }))
-                    }
+                    checked={formData.doNotSell}
+                    onChange={handleChange}
                   />
-                  &nbsp;I am a California resident and I wish to opt out of the
-                  sale or sharing of my personal information.
+                  &nbsp;I am a California resident and I wish to opt out of the sale or sharing of my personal information.
                 </label>
                 <p className="opt-out-note">
-                  Please see "Do Not Sell My Personal Information" in our {" "}
+                  Please see "Do Not Sell My Personal Information" in our{" "}
                   <Link className="privacy-inline-link" to="/PrivacyPolicy">
                     Privacy Policy
                   </Link>
                   .
                 </p>
+              </div>
+              <div className="checkbox-container">
+                <label className="checkbox-label" htmlFor="acceptedTermsAndPrivacy">
+                  <input
+                    id="acceptedTermsAndPrivacy"
+                    type="checkbox"
+                    name="acceptedTermsAndPrivacy"
+                    checked={formData.acceptedTermsAndPrivacy}
+                    onChange={handleChange}
+                    required
+                  />
+                  &nbsp;I agree to the{" "}
+                  <Link className="privacy-inline-link" to="/TermsOfUse">
+                    Terms of Use
+                  </Link>{" "}
+                  and{" "}
+                  <Link className="privacy-inline-link" to="/PrivacyPolicy">
+                    Privacy Policy
+                  </Link>
+                  .
+                </label>
               </div>
 
               <button className="custom-button" type="submit">
