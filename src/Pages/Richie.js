@@ -155,44 +155,48 @@ const Richie = () => {
                   something in return.
                 </p>
               </section>
-              <section className="section-richie mt-4">
-                <h2>Music by: TRIPP</h2>
+              <section className="section-richie">
+                <header>
+                  <h1>Music by: TRIPP</h1>
+                </header>
+                <hr />
+                
+                <h2 className="section text-dark">Song List:</h2>
                 <ol>
-                  <p>Song Title</p>
                   <li>
                     <a
-                      href="assets/TRIPP- FLIP SIDE (PROD BY SOL DRE).mp3"
+                      href="/assets/trippFlip_SideProdBySolDre.mp3"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button className="button button1">FLIP SIDE</button>
+                      <button className="btn-link3">FLIP SIDE</button>
                     </a>
                   </li>
                   <li>
                     <a
-                      href="assets/Tripp Freestyle 1 mastered.mp3"
+                      href="/assets/tripp_Freestyle1Mastered.mp3"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button className="button button1">FREESTYLE</button>
+                      <button className="btn-link3">FREESTYLE</button>
                     </a>
                   </li>
                   <li>
                     <a
-                      href="assets/Go German Tripp Mastered.mp3"
+                      href="assets/goGerman_TrippMastered.mp3"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button className="button button1">GO GERMAN</button>
+                      <button className="btn-link3">GO GERMAN</button>
                     </a>
                   </li>
                   <li>
                     <a
-                      href="assets/Bad Chick - Tripp ft. Sol Dre.mp3"
+                      href="/assets/backChick_TrippFtSolDre.mp3"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <button className="button button1">BAD CHICK</button>
+                      <button className="btn-link3">BAD CHICK</button>
                     </a>
                   </li>
                 </ol>
@@ -208,3 +212,4 @@ const Richie = () => {
 };
 
 export default Richie;
+

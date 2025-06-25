@@ -28,42 +28,6 @@ ul, ol, li {
   color: white;
 }
 
-.btn-link {
-  display: inline-block; /* allow vertical margin */
-  margin-bottom: 12px; /* space below each button */
-  background: #ffffff;
-  border: none;
-  color: #000000;
-  cursor: pointer;
-  font-weight: 600;
-  padding: 4px 8px;
-  font-size: 0.9rem;
-  text-decoration: none;
-  border-radius: 0.5rem;
-}
 
-.btn-link:hover {
-  text-decoration: underline;
-  background-color: #ffd700; /* gold */
-  color: #000000; /* black text */
-  transition: background-color 0.3s ease;
-  text-decoration: underline;
-  background-color: rgb(34, 139, 34); /* forrest green */
-  color: #ffffff; /* white text */
-  transition: background-color 0.3s ease;
-  border-radius: 0.5rem;
-}
-
-.btn-link2 {
-  color: #000000; /* black text */
-  text-decoration: underline;
-}
-
-.btn-link2:hover {
-  color: #ffffff; /* white text */
-  background-color: #228b22; /* forest green */
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-}
 
 /* Footer already in App.js, no need to repeat */

@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import singerImg from "../images/singer.jpg";
 import musicWriterImg from "../images/music_writer.jpg";
-import flipSideAudio from "../assets/TRIPP- FLIP SIDE (PROD BY SOL DRE).mp3";
-
+import flipSideAudio from "../assets/trippFlip_SideProdBySolDre.mp3";
 const LocalTalent = () => {
   return (
     <div className="main_container">

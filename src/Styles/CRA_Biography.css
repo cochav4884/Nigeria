@@ -4,6 +4,13 @@
   cursor: pointer;
 }
 
+.born {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
 /* ROC, CP, PASTOR */
 .born::first-letter {
   font-size: 200%;
@@ -18,20 +25,27 @@
   line-height: 2.0;
 }
 
-article {
-  float: left;
+/* Make sure article inside .born fills container */
+.born > article {
+  width: 100%;
+  margin: 0;
+}
+
+.col-md-5 {
+  margin-bottom: 1.5rem; /* space below image on small screens */
 }
 
 .section-richie {
-  background: rgb(11, 11, 11) url("../assets/TRIPP-\ FLIP\ SIDE\ \(PROD\ BY\ SOL\ DRE\).mp3") no-repeat center;
-  box-shadow: 6px 6px 8px 10px rgb(255, 255, 255, 0.725);
+  background: #ffffff url("../assets/trippFlip_SideProdBySolDre.mp3") no-repeat center;
+  box-shadow: 0 4px 8px #000000;
   clear: left;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px rgb(128, 128, 128);
+  color: #000000;
   font-style: italic;
   font-size: 24px;
-  font-family: cursive;
-  padding: 15px;
-  border: 4px solid rgb(12, 12, 12);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  border: 2px solid #000000;
+  border-radius: 0.5rem;
   margin-bottom: 100px;
+  width: 100%;
 }
