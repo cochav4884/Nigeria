@@ -12,7 +12,7 @@ const Church = () => {
           <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
         </header>
         <h2 className="section"> * Meet Pastor Amous Onogwu! *</h2>
-        <hr />
+        
         <div className="container">
           <section className="section">
             <img

@@ -33,7 +33,6 @@ function About() {
           <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
         </header>
         <h2 className="section">* Learn More About Akute! *</h2>
-        <hr />
 
         <div className="container">
           <p className="custom-p">Map of Akute, Ogun State, Nigeria</p>

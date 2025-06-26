@@ -139,7 +139,7 @@ const Residents = () => {
           <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
         </header>
         <h2 className="section">* Meet The Residents of Akute! *</h2>
-        <hr />
+      
         {residentsData.map((resident, idx) => (
           <div className="accordion-item" key={resident.name}>
             <div

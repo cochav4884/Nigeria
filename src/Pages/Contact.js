@@ -68,7 +68,7 @@ function Contact() {
           <h2 className="section">
             * We would love to hear from you! Please fill out the form below. *
           </h2>
-          <hr />
+          
           <section className="container">
             <form onSubmit={handleSubmit}>
               <input
@@ -140,7 +140,7 @@ function Contact() {
 
             {status && <p>{status}</p>}
           </section>
-          <hr />
+          
         </div>
       </div>
     </div>

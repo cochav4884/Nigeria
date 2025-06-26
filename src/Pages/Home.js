@@ -12,7 +12,7 @@ const Home = () => {
         <h2 className="section">
           * Photographs of Akute By Resident: Richie Osborne! *
         </h2>
-        <hr />
+       
         <section className="container">
           <div
             id="imageCarousel"

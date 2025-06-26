@@ -25,7 +25,6 @@ const NiteLife = () => {
         </header>
 
         <h2 className="section">* Nitelife in Akute! *</h2>
-        <hr />
 
         <div className="container">
           <section className="section-nitelife">
@@ -74,7 +73,7 @@ const NiteLife = () => {
             <img src={niteLife8} className="nitelife-pics" alt="Nite Life 8" />
           </section>
 
-          <hr />
+         
         </div>
       </div>
     </div>

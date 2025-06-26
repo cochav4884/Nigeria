@@ -1,5 +1,8 @@
 import React from "react";
-import "../Styles/Credits.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../Styles/Credits.css"; // your custom styles
+
+import afterRain from "../images/after_rain_bw1.jpg";
 
 // const scrollToTop = () => {
 //   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -7,7 +10,7 @@ import "../Styles/Credits.css";
 
 function Credits() {
   return (
-    <div className="main-container">
+    <div className="main_container">
       <div className="container-fluid">
         <header>
           <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
@@ -17,14 +20,15 @@ function Credits() {
           </p>
         </header>
         <h2 className="section">* Credits *</h2>
-        <div className="credits">
+        <div className="container">
           <h3>Website Design & Development</h3>
           <p>
             <strong>Corinne Padilla</strong> - Frontend Development, UI/UX
             Design, Backend Development, Database Management
           </p>
           <p>
-            <strong>Richie Osborne</strong> - Photographer, Interviewer, Collaborator
+            <strong>Richie Osborne</strong> - Photographer, Interviewer,
+            Collaborator
           </p>
 
           <h3>Content Contributors</h3>
@@ -38,6 +42,17 @@ function Credits() {
             To all the residents of Akute for their support and contributions to
             this project.
           </p>
+        </div>
+      </div>
+      <div className="card-container">
+        <div className="card">
+          <div className="card-header">After Rain</div>
+          <div className="card-body">
+            <img src={afterRain} alt="After Rain" className="card-img" />
+          </div>
+          <div className="card-footer">
+            Photo By: Richie Osborne &copy; 2022 | ROC
+          </div>
         </div>
       </div>
     </div>

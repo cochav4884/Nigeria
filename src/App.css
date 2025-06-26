@@ -1,6 +1,6 @@
 .main_container {
   padding: 20px;
-  background-color: rgb(34, 139, 34); /* forest green */
+  background-color: #228b22; /* forest green */
   color: rgb(0, 0, 0); /* black text */
 }
 
@@ -8,11 +8,12 @@
   max-width: 900px;
   margin: 2rem auto;
   background-color: #ffd700; /* gold */
-  color: #fff;
+  color: #ffffff; /* white text */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 0 12px rgba(34, 139, 34, 0.4);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid #000000; /* black border */
 }
 
 .page-header {
