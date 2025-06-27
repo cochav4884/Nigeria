@@ -6,7 +6,7 @@ import "../Styles/NiteLife.css"; // your custom styles
 import gasStation1 from "../images/gas_station1.jpg";
 import gasStation2 from "../images/gas_station2.jpg";
 import niteLife1 from "../images/nitelife1.jpg";
-import img2 from "../images/IMG-20220504-WA0004_2.jpg";
+import img_sahara from "../images/IMG_sahara.jpg";
 import clothingStore1 from "../images/clothing_store1.jpg";
 import groceryStore2 from "../images/grocery_store2.jpg";
 import niteLife2 from "../images/nitelife2.jpg";
@@ -44,7 +44,7 @@ const NiteLife = () => {
           <br />
 
           <section className="section-nitelife">
-            <img src={img2} className="nitelife-pics" alt="IMG 2" />
+            <img src={img_sahara} className="nitelife-pics" alt="IMG 2" />
             <img
               src={clothingStore1}
               className="nitelife-pics"

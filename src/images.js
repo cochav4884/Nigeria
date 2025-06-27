@@ -32,14 +32,14 @@ import Mosque_bw2 from './images/Mosque_bw2.jpg';
 import Islam_worship_bw1 from './images/Islam_worship_bw1.jpg';
 import open_store_front_bw1 from './images/open_store_front_bw1.jpg';
 import table_tennis_bw1 from './images/table_tennis_bw1.jpg';
-import IMG_20220503_WA0000_2 from './images/IMG-20220503-WA0000_2.jpg';
-import IMG_20220503_WA0001_2 from './images/IMG-20220503-WA0001_2.jpg';
-import IMG_20220503_WA0002_2 from './images/IMG-20220503-WA0002_2.jpg';
-import IMG_20220503_WA0003_2 from './images/IMG-20220503-WA0003_2.jpg';
-import IMG_20220503_WA0004_2 from './images/IMG-20220503-WA0004_2.jpg';
-import IMG_20220503_WA0005_2 from './images/IMG-20220503-WA0005_2.jpg';
-import IMG_20220503_WA0011_3 from './images/IMG-20220503-WA0011_3.jpg';
-import IMG_20220503_WA0013_2 from './images/IMG-20220503-WA0013_2.jpg';
+import img_bw_1 from "./images/IMG_bw_1.jpg";
+import img_bw_2 from "./images/IMG_bw_2.jpg";
+import img_bw_3 from "./images/IMG_bw_3.jpg";
+import img_bw_4 from "./images/IMG_bw_4.jpg";
+import img_bw_5 from "./images/IMG_bw_5.jpg";
+import img_bw_6 from "./images/IMG_bw_6.jpg";
+import img_bw_7 from "./images/IMG_bw_7.jpg";
+import img_bw_8 from "./images/IMG_bw_8.jpg";
 import looking_out_bw1 from './images/looking_out_bw1.jpg';
 import looking_out_bw2 from './images/looking_out_bw2.jpg';
 
@@ -78,14 +78,14 @@ const images = [
   Islam_worship_bw1,
   open_store_front_bw1,
   table_tennis_bw1,
-  IMG_20220503_WA0000_2,
-  IMG_20220503_WA0001_2,
-  IMG_20220503_WA0002_2,
-  IMG_20220503_WA0003_2,
-  IMG_20220503_WA0004_2,
-  IMG_20220503_WA0005_2,
-  IMG_20220503_WA0011_3,
-  IMG_20220503_WA0013_2,
+  img_bw_1,
+  img_bw_2,
+  img_bw_3,
+  img_bw_4,
+  img_bw_5,
+  img_bw_6,
+  img_bw_7,
+  img_bw_8,
   looking_out_bw1,
   looking_out_bw2,
 ];

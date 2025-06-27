@@ -3,7 +3,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "../Styles/About.css";
 
-import cityOfPeace from "../images/City of Peace.jpg";
+import cityOfPeace from "../images/city_of_peace.jpg";
 import rainforest from "../images/rainforest.webp";
 import population from "../images/population.png";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import richie from "../images/Richie.jpg";
+import richieBW from "../images/richie_bw.jpg";
 import "../Styles/CRA_Biography.css";
 
 import jsPDF from "jspdf";
@@ -63,7 +63,7 @@ const Richie = () => {
           {/* Image on left */}
           <div className="col-md-5 mb-4">
             <img
-              src={richie}
+              src={richieBW}
               alt="Portrait of Richie Osborne"
               className="page-image img-fluid"
               style={{
