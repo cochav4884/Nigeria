@@ -1,12 +1,3 @@
-/* Header styling */
-h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #000000; /* black */
-  text-align: center;
-}
-
-
-
 /* Sections with images */
 .section-nitelife {
   display: flex;

@@ -1,0 +1,71 @@
+/* Styles Travel page */
+.contact-info {
+  color: #000000; /* black text */
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Dropdown container */
+.travel-dropdown-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Dropdown button styling */
+.travel-dropdown {
+  background-color: #000000; /* black */
+  color: #ffffff; /* white text */
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 2px solid #ffd700; /* gold border */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.travel-dropdown:hover {
+  background-color: #228b22; /* forest green */
+  color: #ffffff;
+  text-decoration: underline;
+  transform: scale(1.03); /* slight zoom on hover */
+}
+
+/* Dropdown links container */
+.dropdown-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Fade-in effect */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+.dropdown-links.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Dropdown links */
+.dropdown-links a {
+  background-color: #ffd700; /* gold */
+  color: #000000; /* black text */
+  text-decoration: none;
+  padding: 12px 20px; /* increased for better accessibility */
+  margin: 6px 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-links a:hover {
+  background-color: #228b22; /* forest green */
+  color: #ffffff;
+  text-decoration: underline;
+}

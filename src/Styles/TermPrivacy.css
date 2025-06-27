@@ -1,14 +1,3 @@
-/* Header */
-h3 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #000000; /* black */
-  margin-bottom: 1rem;
-  text-align: center;
-  border-bottom: 2px solid #228b22; /* forest green */
-  padding-bottom: 0.5rem;
-}
-
 /* Paragraphs inside text sections */
 .text {
   text-align: left;

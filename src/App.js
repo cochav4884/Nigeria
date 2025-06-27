@@ -16,6 +16,7 @@ import TermsOfUse from "./Pages/TermsOfUse";
 import Corinne from "./Pages/Corinne";
 import Richie from "./Pages/Richie";
 import Amos from "./Pages/Amos";
+import Travel from "./Pages/Travel";
 
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -43,6 +44,7 @@ function App() {
             <Route path="/corinne" element={<Corinne />} />
             <Route path="/richie" element= {<Richie />} />
             <Route path="/amos" element={<Amos />} />
+            <Route path="/travel" element={<Travel />} />
           </Routes>
         </main>
         <Footer />
