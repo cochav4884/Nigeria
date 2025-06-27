@@ -116,7 +116,7 @@ p {
   background-color: #000000; /* black */
   color: #ffffff; /* white text */
   border-radius: 0.5rem;
-  text-decoration: underline;
+  text-decoration: none;
   padding: 6px 12px;
   display: inline-block;
   cursor: pointer;
@@ -126,5 +126,7 @@ p {
 .btn-link3:hover { 
   background-color: #ffd700; /* gold */
   color: #000000; /* black text */
-  text-decoration: none
+  text-decoration: underline;
+  transition: background-color 0.3s ease;
+  border-radius: 0.5rem;
 }

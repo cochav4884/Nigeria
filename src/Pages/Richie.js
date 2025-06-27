@@ -2,6 +2,9 @@ import React from "react";
 import richieBW from "../images/richie_bw.jpg";
 import "../Styles/CRA_Biography.css";
 
+// Importing TRIPP Studios image
+import trippStudiosImg from "../images/TRIPP_studios.jpg";
+
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 
@@ -155,61 +158,70 @@ const Richie = () => {
                   something in return.
                 </p>
               </section>
-              <section className="section-richie">
-                <header>
-                  <h1 className="page-header">Music by: TRIPP</h1>
-                </header>
-                <hr />
-                
-                <h2 className="section">* Song List: *</h2>
-                <ol>
-                  <li>
-                    <a
-                      href="/assets/trippFlip_SideProdBySolDre.mp3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="btn-link3">FLIP SIDE</button>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/assets/tripp_Freestyle1Mastered.mp3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="btn-link3">FREESTYLE</button>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="assets/goGerman_TrippMastered.mp3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="btn-link3">GO GERMAN</button>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/assets/backChick_TrippFtSolDre.mp3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="btn-link3">BAD CHICK</button>
-                    </a>
-                  </li>
-                </ol>
-              </section>
 
-              <p className="text-center fs-1 mt-4">*Last Update June 25, 2025*</p>
+              <p className="text-center fs-1 mt-4">
+                *Last Update June 25, 2025*
+              </p>
             </article>
           </div>
         </div>
-      </div>
+      </div>{" "}
+      <header>
+        <h1 className="page-header">Music by: TRIPP</h1>
+      </header>
+      <section className="trippStudios">
+  <div className="tripp-image-wrapper">
+    <img
+      src={trippStudiosImg}
+      alt="TRIPP Studios"
+      className="tripp-image"
+    />
+    <div className="tripp-overlay">
+      <h2 className="section">* Song List: *</h2>
+      <ol>
+        <li>
+          <a
+            href="/assets/trippFlip_SideProdBySolDre.mp3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-link3">FLIP SIDE</button>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/assets/tripp_Freestyle1Mastered.mp3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-link3">FREESTYLE</button>
+          </a>
+        </li>
+        <li>
+          <a
+            href="assets/goGerman_TrippMastered.mp3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-link3">GO GERMAN</button>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/assets/backChick_TrippFtSolDre.mp3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn-link3">BAD CHICK</button>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };
 
 export default Richie;
-
