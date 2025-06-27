@@ -36,7 +36,7 @@ function Footer() {
       <div className="footer-nav">
         <Link to="/privacypolicy">Privacy Policy</Link> |{" "}
         <Link to="/termsofuse">Terms of Use</Link> |{" "}
-        <Link to="/credits">Credits</Link> |{" "}
+        <Link to="/credits">Credits & Copyrights</Link> |{" "}
         <Link to="/contact">Contact</Link>
       </div>
 

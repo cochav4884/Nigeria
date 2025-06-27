@@ -14,10 +14,6 @@ function Credits() {
       <div className="container-fluid">
         <header>
           <h1 className="page-header">Akute, Ogun State, Nigeria</h1>
-          <p>
-            Developed by Corinne Padilla & Richie Osborne. Content from
-            community contributors.
-          </p>
         </header>
 
         <h2 className="section">* Credits *</h2>
@@ -44,6 +40,8 @@ function Credits() {
             this project.
           </p>
         </div>
+
+        <h2 className="section">* Copyright *</h2>
 
         <div className="card-container">
           {creditsData.map((item, index) => (
