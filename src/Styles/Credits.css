@@ -10,15 +10,16 @@
   background-color: #ffffff;
   border-radius: 0.5rem;
   box-shadow: 0 0.125rem 0.25rem #000000;
-  padding: 1rem;
-  height: 50vh;
-  width: 35vh;
+  padding: 0.5rem; /* slightly smaller padding */
+  height: 30vh;     /* was 50vh */
+  width: 17.5vh;    /* was 35vh */
   display: flex;
   flex-direction: column;
   border: 2px solid #000000;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .card:hover {
   transform: translateY(-8px);
@@ -58,4 +59,72 @@
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 12px #000000;
+}
+
+.modal-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #ffd700;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 6px #000000;
+}
+
+.modal-caption {
+  text-align: center;
+  margin-top: 1rem;
+  color: #000000;
+}
+
+.modal-caption h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+  color: #228b22;
+}
+
+.modal-caption p {
+  font-size: 0.95rem;
+  color: #000000;
 }
