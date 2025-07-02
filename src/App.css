@@ -48,6 +48,7 @@
   color: #228b22;
   text-align: center;
   font-weight: 600;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 h3 {
@@ -129,4 +130,55 @@ p {
   text-decoration: underline;
   transition: background-color 0.3s ease;
   border-radius: 0.5rem;
+}
+
+.pastor_section {
+  background-color: #ffffff; /* white */
+  border: 2px solid #228b22; /* forest green border */
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* subtle black shadow */
+  color: #000000; /* black text */
+}
+
+.qa-section details {
+  margin-bottom: 1rem;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.qa-section summary {
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.4rem 0;
+  color: #228b22; /* forest green */
+}
+
+.qa-section ul {
+  margin-top: 0.5rem;
+  padding-left: 1.4rem;
+  color: #000000; /* black */
+}
+
+.subheader2 {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 1px 1px 2px #000000;
+}
+.video-wrapper {
+  margin: 2rem auto;
+  max-width: 800px;
+  border: 2px solid #228b22;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }

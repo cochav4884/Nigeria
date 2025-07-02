@@ -31,17 +31,4 @@
   color: #228b22; /* Forest Green */
 }
 
-/* Interview blockquote styling */
-.interview-section blockquote {
-  font-style: italic;
-  padding-left: 1rem;
-  color: #fff;
-  max-width: 600px;
-  margin: 0 auto 2rem auto;
-  background: #000000;
-  border-radius: 6px;
-  box-shadow: 0 4px 6px rgba(34, 139, 34, 0.4);
-}
-.interview-section strong {
-  color:  rgb(34, 139, 34); /* Forest Green */
-}
+
