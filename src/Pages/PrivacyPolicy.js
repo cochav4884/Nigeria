@@ -94,8 +94,8 @@ const PrivacyPolicy = () => {
                 Back to Top
               </button>
             </li>
-
-            {/* 2. Coverage Section */} {/* Change domain url when you have it */}
+            {/* 2. Coverage Section */}{" "}
+            {/* Change domain url when you have it */}
             <li>
               <h2 className="section-title" id="S02">
                 Coverage
@@ -118,7 +118,6 @@ const PrivacyPolicy = () => {
                 Back to Top
               </button>
             </li>
-
             {/* 3. Definitions of Types of Information Section */}
             <li>
               <h2 className="section-title" id="S03">
@@ -145,13 +144,12 @@ const PrivacyPolicy = () => {
                 Back to Top
               </button>
             </li>
-
             {/* 4. Use of Information Section */}
             <li>
               <h2 className="section-title" id="S04">
                 Collection and Use of Personally Identifiable Information
               </h2>
-              <h3>* Registration *</h3>
+              <h4>* Registration *</h4>
               <p className="text">
                 Access to some parts of our site may require you to provide
                 personal information voluntarily. You are never obligated to
@@ -159,10 +157,10 @@ const PrivacyPolicy = () => {
                 features may be inaccessible.
               </p>
 
-              <h3>
+              <h4>
                 * Sharing Personally Identifiable Information with Third Parties
                 *
-              </h3>
+              </h4>
               <p className="text">
                 We may share your personal information with trusted service
                 providers to help operate the site and improve your experience.
@@ -171,14 +169,14 @@ const PrivacyPolicy = () => {
                 such sharing by contacting us through the contact page.
               </p>
 
-              <h3>*Legal Disclosures *</h3>
+              <h4>*Legal Disclosures *</h4>
               <p className="text">
                 We may disclose your personal information if required by law or
                 to protect our rights, comply with legal processes, or enforce
                 our Terms of Use.
               </p>
 
-              <h3>* Traffic Data *</h3>
+              <h4>* Traffic Data *</h4>
               <p className="text">
                 Traffic Data is collected regardless of registration status to
                 help us analyze usage patterns and improve services. This data
@@ -186,7 +184,7 @@ const PrivacyPolicy = () => {
                 personally.
               </p>
 
-              <h3>* Cookies *</h3>
+              <h4>* Cookies *</h4>
               <p className="text">
                 Cookies are small data files stored on your device that help
                 enhance website functionality and user experience. You can
@@ -194,7 +192,7 @@ const PrivacyPolicy = () => {
                 features may not work properly without them.
               </p>
 
-              <h3>* Children’s Privacy *</h3>
+              <h4>* Children’s Privacy *</h4>
               <p className="text">
                 Our site is not intended for children under 13, and we do not
                 knowingly collect personal information from minors without
@@ -202,7 +200,7 @@ const PrivacyPolicy = () => {
                 Privacy Protection Act (COPPA).
               </p>
 
-              <h3>* IP Addresses *</h3>
+              <h4>* IP Addresses *</h4>
               <p className="text">
                 IP addresses may be collected for system administration, audit,
                 and security purposes. We do not link IP addresses to personally
@@ -210,7 +208,7 @@ const PrivacyPolicy = () => {
                 policies or legal requirements.
               </p>
 
-              <h3>* Third-Party Relationships *</h3>
+              <h4>* Third-Party Relationships *</h4>
               <p className="text">
                 Our site may include links or services provided by trusted third
                 parties. We are not responsible for their privacy policies and
@@ -219,7 +217,7 @@ const PrivacyPolicy = () => {
                 contact us.
               </p>
 
-              <h3>* Security *</h3>
+              <h4>* Security *</h4>
               <p className="text">
                 We employ industry-standard security measures to protect your
                 data but cannot guarantee absolute security. Please promptly
@@ -229,7 +227,6 @@ const PrivacyPolicy = () => {
                 Back to Top
               </button>
             </li>
-
             {/* 5. Website Accessibility Policy Section */}
             <li>
               <h2 className="section-title" id="S05">
@@ -253,34 +250,79 @@ const PrivacyPolicy = () => {
                 Back to Top
               </button>
             </li>
-
             {/* 6. Do Not Sell My Personal Information Section */}
             <li>
               <h2 className="section-title" id="S06">
                 Do Not Sell My Personal Information
               </h2>
+
+              <h4 className="subsection-title">* Global Privacy Rights *</h4>
+              <p className="text">
+                We respect the privacy rights of all our users worldwide.
+                Depending on your jurisdiction, you may have rights regarding
+                your personal information under laws such as the European
+                Union’s General Data Protection Regulation (GDPR), Canada’s
+                Personal Information Protection and Electronic Documents Act
+                (PIPEDA), or other applicable laws.
+              </p>
+
+              <h4 className="subsection-title">
+                * How to Exercise Your Rights *
+              </h4>
+              <p className="text">
+                If you wish to exercise your privacy rights — including access,
+                correction, deletion, objection to processing, or data
+                portability — please{" "}
+                <Link className="btn-link2" to="/Contact">
+                  contact us
+                </Link>{" "}
+                with your request and specify your jurisdiction. When submitting
+                a request, please select the “Do Not Sell” option in the “Select
+                a Subject” dropdown on the contact form if you wish to opt out
+                of the sale or sharing of your personal information. Otherwise,
+                you may provide your consent to the processing of your personal
+                data by selecting the corresponding consent checkbox.
+              </p>
+
+              <h4 className="subsection-title">
+                * California Privacy Rights *
+              </h4>
               <p className="text">
                 Under the California Consumer Privacy Act (CCPA) and California
                 Privacy Rights Act (CPRA), California residents have the right
-                to opt-out of the sale or sharing of their personal information.
-                Although this website does not sell personal information in
-                exchange for money, we may share information with service
-                providers to improve functionality.
+                to opt out of the sale or sharing of their personal information.
+                While this website does not sell personal information for
+                monetary consideration, we may share personal data with trusted
+                service providers to improve functionality and services.
               </p>
+
+              <h4 className="subsection-title">* How to Opt Out *</h4>
               <p className="text">
                 If you are a California resident and would like to exercise your
-                right to opt-out, please{" "}
+                right to opt out, please{" "}
                 <Link className="btn-link2" to="/Contact">
                   contact us
                 </Link>{" "}
                 and include "Do Not Sell My Info" in your message subject or
-                body.
+                body. We will respond to your request promptly and in accordance
+                with applicable laws.
               </p>
+
+              <h4 className="subsection-title">* Accessibility Support *</h4>
+              <p className="text">
+                For assistance with your privacy rights requests, including
+                those related to accessibility needs, please reach out to us
+                through our{" "}
+                <Link className="btn-link2" to="/Contact">
+                  contact page
+                </Link>
+                .
+              </p>
+
               <button className="btn-link" onClick={scrollToTop}>
                 Back to Top
               </button>
             </li>
-
             {/* 07. Updates to this Policy Section */}
             <li>
               <h2 className="section-title" id="S07">
@@ -294,7 +336,6 @@ const PrivacyPolicy = () => {
                 Back to Top
               </button>
             </li>
-
             {/* 08. Intellectual Property and Content Ownership Section */}
             <li>
               <h2 className="section-title" id="S08">
@@ -334,7 +375,6 @@ const PrivacyPolicy = () => {
                 Back to Top
               </button>
             </li>
-
             {/* 09. Contact Us Section */}
             <li>
               <h2 className="section-title" id="S09">
